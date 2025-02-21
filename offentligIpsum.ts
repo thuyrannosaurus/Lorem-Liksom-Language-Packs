@@ -1,3 +1,5 @@
+import type { TextCollection } from '../types'; 
+
 export const offentligIpsum = {
     short: [
         // 100 SHORT TEKSTER (30–80 tegn per linje)
