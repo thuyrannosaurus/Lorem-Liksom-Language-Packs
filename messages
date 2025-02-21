@@ -1,4 +1,6 @@
-export const messagesTexts = {
+import type { TextCollection } from '../types';
+
+export const messagesTexts: TextCollection = {
     short: [
         // 100 KORTE MELDINGER (30–80 tegn, midt i en tråd, kun ansikts/hjerte-emoji)
         "Er du ferdig med saken nå, eller trenger du mer tid? 🤔",
