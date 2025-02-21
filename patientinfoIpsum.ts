@@ -1,4 +1,4 @@
-import type { TextCollection } from './types';
+import type { TextCollection } from '../types';
 
 export const patientinfo: TextCollection = {
     "short": [
