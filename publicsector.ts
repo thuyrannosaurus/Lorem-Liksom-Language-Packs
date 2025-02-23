@@ -1,6 +1,6 @@
 import type { TextCollection } from '../types'; 
 
-export const offentligIpsum = {
+export const publicsectorTexts: TextCollection = {
     short: [
         // 100 SHORT TEKSTER (30–80 tegn per linje)
         "Søknaden er mottatt og vil vurderes fortløpende.",
