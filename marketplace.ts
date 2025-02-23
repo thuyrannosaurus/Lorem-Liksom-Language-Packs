@@ -1,4 +1,6 @@
-export const marketplaceTexts: = {
+import type { TextCollection } from '../types';
+
+export const marketplaceTexts: TextCollection = {
   short: [
     // 100 KORTE TEKSTER – OVERSKRIFTER (30–80 tegn)
     "Retro platespiller selges: Perfekt for vinylnerder!",
