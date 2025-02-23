@@ -1,7 +1,6 @@
 import type { TextCollection } from '../types';
 
-
-export const sensasjonalistiskIpsum = {
+export const sensationalTexts: TextCollection = {
     short: [
         // 100 KORTE TEKSTER (30–80 tegn per linje)
         "Brå avsløring ryster folket: – Ingen ante dette på forhånd!",
