@@ -2,295 +2,718 @@ import type { TextCollection } from '../types';
 
 export const messagesTexts: TextCollection = {
     short: [
-        // 100 KORTE MELDINGER (30–80 tegn, midt i en tråd, kun ansikts/hjerte-emoji)
-        "Er du ferdig med saken nå, eller trenger du mer tid? 🤔",
-        "Fikk akkurat en rar melding, men usikker på hva det betyr 😬",
-        "Har egentlig ikke oversikt, men jeg prøver meg fram 😅",
-        "Kan du svare meg innen kl. 14? Jeg venter på avklaring 😐",
-        "Så du den siste oppdateringen, eller gikk den i glemmeboka? 🙄",
-        "Hvilken versjon av dokumentet ligger til grunn nå? 🤔",
-        "Folk lurer på fremdrift, men jeg har ingen nye svar 😕",
-        "Avtalte vi egentlig at du skulle sende den mailen? 🤨",
-        "Jeg tror alt er i orden, men er litt usikker 🤷",
-        "Rakk du å notere viktige punkter, eller ble det glemt? 😅",
-        "Tror jeg må ta en pause, hodet koker litt nå 😬",
-        "Vet du hvor jeg finner vedlegget til rapporten? 🤔",
-        "Ingen anelse om vi har leveringsfrist i dag eller i morgen 😶",
-        "Trenger kjapt svar, men hører ikke noe fra deg 😬",
-        "Jeg spurte i chatten, men fikk null respons 🤨",
-        "Orker ikke mer surr, vil bare ha en enkel løsning 😅",
-        "Glemte du å låse døra i stad, eller var det bare jeg? 🙄",
-        "Ble møtet avlyst, eller dukker vi opp likevel? 🤔",
-        "Noen sa alt var klart, men jeg er skeptisk 😕",
-        "Er på kontoret, men ingen andre er her… merkelig 😬",
-        "Jeg klør i fingrene etter å avslutte dette nå 😅",
-        "Ser ut som ting flyter, men jeg er ikke helt trygg 😬",
-        "Kan du gi et hint om neste steg, for jeg står fast 😕",
-        "Hmm, jeg trodde vi var enige, men hører forskjellig nå 🤨",
-        "Veldig rart at ingen nevnte denne feilen før nå 😬",
-        "Skulle bare si fra at jeg har sendt filen videre 😄",
-        "Høres ut som en god idé, men trenger mer info 🤔",
-        "Jeg hopper over lunsj, har for mye å gjøre 😅",
-        "Føler at alt går i sirkler for tida 😶",
-        "Haster det, eller kan jeg vente til i morgen? 🙄",
-        "Trodde du tok den saken, så jeg gjorde ingenting 😬",
-        "Sjekket innboksen min nå, den er stappfull 😅",
-        "Er du helt sikker på at dette er riktig tilnærming? 🤔",
-        "Brukte altfor lang tid på en liten detalj 😕",
-        "Nå vil jeg bare gå hjem, men må fullføre først 😬",
-        "Kan vi ikke bare enes om en felles løsning? 🙄",
-        "Jeg har et spørsmål, men vet ikke helt hvordan jeg skal stille det 😅",
-        "Tror systemet er nede, alt fryser 🙁",
-        "Nei, jeg tok ikke notater… trodde du gjorde det 🤷",
-        "Kontrollsjekk: Er vi i rute eller helt på etterskudd? 🤔",
-        "Må bare puste litt, ble litt overveldet nå 😬",
-        "Er alt som planlagt, eller har vi endret retning? 🤔",
-        "Jeg er så lei av å vente på bekreftelse 😕",
-        "Litt i villrede akkurat nå, har du noe å tilføye? 😅",
-        "Fristen var visst i går, men jeg oppdaget det først i dag 🙄",
-        "Prøver å være positiv, men dette er krevende 😬",
-        "Hørte rykter om store endringer, men usikker på detaljene 🤔",
-        "Vi snakket om det senest i går, husker du ikke? 😅",
-        "Jeg lukker øynene for en liten powernap i fem minutter 😴",
-        "Kjenner jeg bør dobbeltsjekke alt før vi går videre 😬",
-        "Her står det noe helt annet enn vi avtalte 😕",
-        "Første gang jeg hører om dette, er det nytt for deg også? 🤔",
-        "Er litt bekymret for at vi overser noe viktig 😬",
-        "Du, jeg glemte å si fra, men jeg dro tidligere i dag 😅",
-        "Har du sett at chatten vår ble altfor lang? 🙄",
-        "Legger ved en kort forklaring, men spør hvis noe er uklart 😐",
-        "Hvis ingen svarer, tar jeg en avgjørelse selv 😶",
-        "Kan vi kalle det en dag snart? Jeg er helt kjørt 😬",
-        "Jeg kommer til å logge av, men ping meg ved kritiske ting 🤔",
-        "Gi meg et minutt, så skal jeg sjekke for deg 😅",
-        "Hadde håpet på tydelig ledelse her, men det er kaos 🙄",
-        "Åh, nå forsvant alt jeg skrev nettopp 😬",
-        "Naboen har bråket siden kl. 06, jeg er desperat 😔",
-        "Heiser flagg for at jeg ikke forstår oppgaven 😶",
-        "Tror jeg trenger en pep-talk, motivasjonen daler 😅",
-        "Hodet mitt bobler av spørsmål, men ingen tid å spørre 😬",
-        "Vet du hva som skjer i morgen, eller er alt i det blå? 🤔",
-        "Oppdaget en skrivefeil i siste publisering, flaut 😕",
-        "En kollega nevnte en backup-plan, men jeg aner ikke hva 🤔",
-        "Jeg startet på rapporten, men stoppet midt i setningen 😅",
-        "Lar deg ta styringen, jeg trekker meg litt tilbake 🙄",
-        "Vi roter fælt nå, dette må ryddes opp i 😬",
-        "Ok, jeg orker ikke mer i dag, henger på i morgen 🤷",
-        "Altfor mange systemer, jeg blir stressa 😅",
-        "Jeg trodde alt var klart, men noen endret på slutten 😐",
-        "Skulle vi egentlig hatt et møte nå? 😳",
-        "God stemning i gruppa, men ingen bestemmer noe 😶",
-        "Trykket på feil knapp, og ting forsvant 🙄",
-        "Trenger egentlig en oversikt, men alt er spredt 😬",
-        "Har du tid til å oppsummere kort, jeg er på farten 😅",
-        "Tja, vi kan vel bare ta en enighet på sparket? 🤔",
-        "Greit, jeg sender ut en liten statusmelding nå 😶",
-        "Har en følelse av at noe er glemt, men vet ikke hva 😬",
-        "Hadde du mulighet til å korrekturlese kjapt? 😕",
-        "Vanskelig å vite hvem som har ansvaret, egentlig 🤔",
-        "Sitter fast i kø, så jeg blir litt forsinket 😅",
-        "Plan A funker ikke, vil du prøve Plan B? 🙄",
-        "Forvirret av motstridende beskjeder, hva gjør vi? 😐",
-        "Syns du alt virker litt halvhjertet, eller bare meg? 🤷",
-        "Vi bør konkludere snart, men ingen tar initiativ 😬",
-        "Jeg sliter med å få kontakt, alt er bare taushet 😶",
-        "Akkurat nå vil jeg bare ha en diger pause, haha 😅",
-        "Ingenting gir mening lenger, men jeg holder ut 🤔",
-        "Hjalp det at du sjekket systemet på nytt, eller samme feil? 😬",
-        "Tok en rask titt, men ble ikke klokere 😕",
-        "Jeg mener det er lurt å avvente, men er åpen for forslag 😇",
-        "Tror vi snakker forbi hverandre, men la oss prøve en gang til 😅",
-        "Fikk du tak i reservenøkkelen, eller må vi ringe vakta? 🙄",
-        "Ok, jeg legger meg flat og beklager alt rot 😶",
-        "Kan du bare peke på nøyaktig hvor jeg skal klikke? 😅",
-        "Jeg oppdaterer deg straks jeg får nytt fra den kanten 😐"
+        // 100 KORTE MELDINGER (30–80 tegn), midt i en tråd, 50% med kun ansikts/hjerte-emoji, 50% uten
+    
+        // --- PARR 1 (med emoji, uten emoji) ---
+        "Fikk du lest gjennom alt, eller ble det for mye? 😅",
+        "Håper du tok utskriften, for jeg finner den ikke her.",
+        
+        // --- PARR 2 ---
+        "Tror jeg må dobbeltsjekke forrige beskjed 😬",
+        "Utsetter du møtet, eller skal jeg bare dukke opp som planlagt?",
+        
+        // --- PARR 3 ---
+        "Var det et problem med vedlegget? 😊",
+        "Lurer på om vi glemte å legge ved en liten kommentar.",
+        
+        // --- PARR 4 ---
+        "Kan du svare raskt, så jeg ikke sitter her og venter 😬",
+        "Så nettopp et notat flyte rundt, men aner ikke fra hvem.",
+        
+        // --- PARR 5 ---
+        "Skal jeg låse kontoret, eller er du fortsatt der? ❤️",
+        "Går litt i surr her, men jeg tror alt ordner seg snart.",
+        
+        // --- PARR 6 ---
+        "Er det greit at jeg bare endrer teksten litt? 🙂",
+        "Kan du bekrefte at alt ble sendt videre i tide?",
+        
+        // --- PARR 7 ---
+        "Føles som jeg overså noe viktig 😅",
+        "Gi en lyd hvis du fant noen feil i siste utkast.",
+        
+        // --- PARR 8 ---
+        "Vi kunne kanskje brukt en annen løsning 🤔",
+        "Det virker som ingen husket å dele skjemaet til slutt.",
+        
+        // --- PARR 9 ---
+        "Sorry hvis jeg maser, men trenger et raskt svar 🙂",
+        "Noen spurte om status, men jeg hadde ingen oppdatering.",
+        
+        // --- PARR 10 ---
+        "Hey, skulle vi ikke teste ny funksjon i dag? 😬",
+        "Fikk beskjed om en forandring, men alt ser likt ut her.",
+        
+        // --- PARR 11 ---
+        "Usikker på om vi bør skrive alt på nytt 😅",
+        "Venter fremdeles på et klarsignal, men ingen har svart.",
+        
+        // --- PARR 12 ---
+        "Kan du sende en liten oppsummering? 🙂",
+        "Har ikke sett meldingen du refererer til, merkelig.",
+        
+        // --- PARR 13 ---
+        "Husk å sjekke spam, den kan ha havnet der 😬",
+        "Prøver å finne ut av filnavnene, men listen er borte.",
+        
+        // --- PARR 14 ---
+        "Jeg føler meg litt på etterskudd nå 😅",
+        "Dropper vi det punktet helt, eller utsetter vi?",
+        
+        // --- PARR 15 ---
+        "Skal jeg bare slette duplikatene? 🤔",
+        "Nå lurer jeg litt på hva vi egentlig ble enige om sist.",
+        
+        // --- PARR 16 ---
+        "Si ifra om du trenger mer tid 😬",
+        "Kan ikke se at du la igjen noen beskjed etter klokka 12.",
+        
+        // --- PARR 17 ---
+        "Tenker vi går videre og håper det er greit 🙂",
+        "Vanskelig å lese den håndskriften, må vi tyde den sammen?",
+        
+        // --- PARR 18 ---
+        "Hmm, den filen var tom, eller er det bare meg? 😅",
+        "Hvem tok initiativ til denne endringen? Ingen anelse.",
+        
+        // --- PARR 19 ---
+        "Vet du om det ble sendt en påminnelse i går? 🤔",
+        "Har sett over alt, men finner ingen e-post om det temaet.",
+        
+        // --- PARR 20 ---
+        "Ok, jeg oppdaterer bare kjapt og håper det stemmer 😬",
+        "Fikk ingen kvittering, kanskje det ikke ble sendt ordentlig.",
+        
+        // --- PARR 21 ---
+        "Fikk du forresten bekreftet deltakerlista? 😊",
+        "Ikke helt sikkert vi trenger nytt møte, men la oss se an behovet.",
+        
+        // --- PARR 22 ---
+        "Bare send meg kladden så jeg kan gi noen innspill 🤔",
+        "Tenkte jeg skulle dobbeltsjekke tallene før publisering.",
+        
+        // --- PARR 23 ---
+        "Tror jeg la ved alt i én mappe nå 😅",
+        "Vet ikke om noen egentlig har tid til å gjennomgå alt i dag.",
+        
+        // --- PARR 24 ---
+        "Hadde du alt klart i systemet, eller mangler noe? 😬",
+        "Det spøker for fristen vår, men jeg prøver å være optimist.",
+        
+        // --- PARR 25 ---
+        "Tar en rask sjekk på siste lenke, men den ser død ut 😊",
+        "Et eller annet i maskinen surrer, men jeg ignorerer det litt.",
+        
+        // --- PARR 26 ---
+        "Funker alt i mobilversjon, eller blir det krøll? 🤔",
+        "Skal skrive en kort beskjed til forumet, men er litt usikker.",
+        
+        // --- PARR 27 ---
+        "Får en rar feilmelding i loggen, men vet ikke hva det betyr 😬",
+        "Her var det masse nye filer plutselig, spennende!",
+        
+        // --- PARR 28 ---
+        "Vet du om vi har lagt alt i riktig rekkefølge? 😊",
+        "Jeg venter på en avklaring før jeg tør sende neste e-post.",
+        
+        // --- PARR 29 ---
+        "Noen spurte om passord, men det har jeg selvfølgelig glemt 😅",
+        "Kom over en kladd fra i fjor, men kanskje den er utdatert?",
+        
+        // --- PARR 30 ---
+        "Oppdaterer dokumentet nå, trenger 5 minutter 🤔",
+        "Skulle gjerne sjekket siste versjon, men alt er litt kaotisk.",
+        
+        // --- PARR 31 ---
+        "Har du en kjapp tilbakemelding? 😬",
+        "Lurte på om du faktisk har sendt varsel til alle berørte.",
+        
+        // --- PARR 32 ---
+        "En liten heads up: alt blir lagt ut i kveld 🙂",
+        "Trodde opprinnelig at vi skulle droppe siste punkt.",
+        
+        // --- PARR 33 ---
+        "Skal jeg melde fra i felleskanalen at vi er ferdige? 😅",
+        "Du kan bare hoppe rett inn i diskusjonen hvis du vil.",
+        
+        // --- PARR 34 ---
+        "Hadde du glemt å legge ved den ene tabellen, eller? 🤔",
+        "Anbefaler at vi avklarer litt mer før vi publiserer noe.",
+        
+        // --- PARR 35 ---
+        "Trenger litt mer tid, er det greit? 😬",
+        "Første utkast ble litt rotete, men jeg rydder nå.",
+        
+        // --- PARR 36 ---
+        "Tror alt er i orden nå, puster lettet ut 🙂",
+        "Kommer snart tilbake med mer info, så hold deg klar.",
+        
+        // --- PARR 37 ---
+        "Stopper du innom? Hadde vært fint å avstemme kjapt 😅",
+        "Hvis ingen svarer, bare går jeg videre med min løsning.",
+        
+        // --- PARR 38 ---
+        "Jeg ble litt overrasket over at det gikk så glatt 🤔",
+        "Bare gi en kort melding om fremgang, så jeg vet du henger med.",
+        
+        // --- PARR 39 ---
+        "Sjekk gjerne om alt av punkter er dekket 😬",
+        "Hvem satte opp den nye strukturen egentlig? Er litt lost.",
+        
+        // --- PARR 40 ---
+        "Siste gang vi snakket, nevnte du en plan B 🙂",
+        "Har slitt med oppkoblingen, men tror jeg fikset det nå.",
+        
+        // --- PARR 41 ---
+        "Kom tilfeldigvis over en notis om endringer i retningslinjer 😅",
+        "Lar du filene ligge på serveren, eller henter du dem lokalt?",
+        
+        // --- PARR 42 ---
+        "Jeg bare nikket under hele møtet og håpet ingen spurte 🤔",
+        "Hørtes litt komplisert ut, men jeg prøver meg gjerne.",
+        
+        // --- PARR 43 ---
+        "Gi meg en kort status hvis du får tid 😬",
+        "Ingen av de jeg spurte hadde oversikt, dessverre.",
+        
+        // --- PARR 44 ---
+        "Hvis jeg forsto riktig, skal alt være avklart nå 🙂",
+        "Kan du markere oppgavene som ferdige i systemet?",
+        
+        // --- PARR 45 ---
+        "Vi tar en liten pause før neste økt, greit? 😅",
+        "Tror jeg sto fast i feil dokument en god stund der.",
+        
+        // --- PARR 46 ---
+        "Har du tittet på detaljene, eller var det for mye 🤔",
+        "Må kansellere kl.14-møtet, alt ble for flytende i dag.",
+        
+        // --- PARR 47 ---
+        "Var litt skeptisk, men nå ser jeg at ideen er ok 😬",
+        "Så raskt som mulig, bare for å slippe en backlog av e-poster.",
+        
+        // --- PARR 48 ---
+        "Hele greia var enklere enn jeg trodde, kult 🙂",
+        "Kan du sjekke om vi har litt mer info i en annen mappe?",
+        
+        // --- PARR 49 ---
+        "Nei, jeg har ikke hørt noe nytt fra dem enda 😅",
+        "Litt usikker på om jeg skal skrive en formell melding tilbake.",
+        
+        // --- PARR 50 ---
+        "Heier på deg her, men si ifra hvis du trenger hjelp 🤔",
+        "Skriver bare kort siden jeg er på farta, men alt vel!",
+        
+        // --- PARR 51 ---
+        "Kom nettopå at jeg glemte siste vedlegg 😬",
+        "Hadde du en annen prioritering i tankene, tro?",
+        
+        // --- PARR 52 ---
+        "Takker for innsatsen, nå er vi nesten i mål 🙂",
+        "Ikke sett noe til den mailen du nevnte, merkelig greier.",
+        
+        // --- PARR 53 ---
+        "Ok, puster lettet ut og håper ingen protesterer 😅",
+        "Prøver å se i arkivet, men alt er litt kronglete sortert.",
+        
+        // --- PARR 54 ---
+        "Hadde du trodd det tok så lang tid? Jeg er overrasket 🤔",
+        "Vet vi om det finnes et budsjett for dette, eller null?",
+        
+        // --- PARR 55 ---
+        "Ser du at jeg la på en liten endring på slutten? 😬",
+        "Glemte å huke av for publisering, så det ble liggende der.",
+        
+        // --- PARR 56 ---
+        "Tenker vi bare kjører på, ingen vits i å vente 🙂",
+        "Må nok finlese alt en gang til, men tar det litt senere.",
+        
+        // --- PARR 57 ---
+        "Jeg forstår bare halvparten av de nye kravene 😅",
+        "Tror du vi bør involvere flere, eller blir det for mange kokker?",
+        
+        // --- PARR 58 ---
+        "Tar litt tid å fordøye alt, men jeg tror det går 🤔",
+        "Har laget en kjapp huskeliste, men den er nok ufullstendig.",
+        
+        // --- PARR 59 ---
+        "Du, jeg sendte deg to korte notater i sted 😬",
+        "Så rart at ingen nevnte det i forrige møte, jeg er forvirret.",
+        
+        // --- PARR 60 ---
+        "Hmm, kanskje jeg skal opprette en ny fil i stedet? 🙂",
+        "Ønsker jeg hadde en bedre oversikt, men jobber med saken.",
+        
+        // --- PARR 61 ---
+        "Vet ikke hvem som eier oppgaven, vil du ta den? 😅",
+        "Fint om du kan gi meg en hint om rekkefølgen, alt bare flyter.",
+        
+        // --- PARR 62 ---
+        "Sjekket systemet, men fant ikke noe åpenbart feil 🤔",
+        "Må ut en tur, men rop hvis du trenger assistanse etterpå.",
+        
+        // --- PARR 63 ---
+        "Ser ut som du oppdaterte noe for fem minutter siden 😬",
+        "Får en følelse av at vi enten er for tidlig eller for seint på'n.",
+        
+        // --- PARR 64 ---
+        "Ikke stress, men litt hastverk er det vel 🙂",
+        "Kan ha oversett en liten detalj, men vet ikke hvilken.",
+        
+        // --- PARR 65 ---
+        "Jeg merket en del notater med 'viktig' i systemet 😅",
+        "Meningen var å forenkle prosessen, men vi har kanskje komplisert.",
+        
+        // --- PARR 66 ---
+        "Hmmm, jeg trodde du allerede hadde tatt en backup 🤔",
+        "Kan du lese siste punkt høyt, så jeg får det med meg?",
+        
+        // --- PARR 67 ---
+        "Jeg kunne sverge på at jeg sendte deg en bekreftelse 😬",
+        "Skjønner ikke helt logikken bak forslaget, men er åpen for alt.",
+        
+        // --- PARR 68 ---
+        "Usikker på om kladden ble overskrevet eller lagret 🙂",
+        "Det er en liten sjanse for at alt trenger en ny runde, dessverre.",
+        
+        // --- PARR 69 ---
+        "Fikk litt dårlig samvittighet, men jeg gjorde det jeg kunne 😅",
+        "Jeg ser at flere har reagert likt, ingen er sikre på neste steg.",
+        
+        // --- PARR 70 ---
+        "Husker du om vi avtale å ringes i ettermiddag? 🤔",
+        "Om vi bare hadde en liten oversikt... alt føles ustrukturt.",
+        
+        // --- PARR 71 ---
+        "Jeg stengte bare dokumentet for redigering midlertidig 😬",
+        "Håper ikke det forsinker deg for mye, men jeg måtte gjøre det.",
+        
+        // --- PARR 72 ---
+        "Venter på ditt godkjent-stempel før jeg trykker publiser 🙂",
+        "Visste ikke at systemet var så rigid, men vi finner en vei.",
+        
+        // --- PARR 73 ---
+        "Rakk ikke gå gjennom alt, men satser på at det holder 😅",
+        "Fikk plutselig en innsikt om en ny vri, men kanskje det er sent.",
+        
+        // --- PARR 74 ---
+        "Min magefølelse sier at vi bør være litt forsiktige 🤔",
+        "Det var en ny melding i Slack, men jeg rakk ikke lese alt.",
+        
+        // --- PARR 75 ---
+        "Noterte bare ‘Se vedlegg’, men glemte å legge ved noe 😬",
+        "Er litt redd for at vi har misforstått oppgaven totalt.",
+        
+        // --- PARR 76 ---
+        "Kunne du bare skumme igjennom og si hva du tenker? 🙂",
+        "Jeg tar gjerne litt input, men har ikke all verdens tid.",
+        
+        // --- PARR 77 ---
+        "Oppfattet du at de faktisk ønsket en forkortet versjon? 😅",
+        "For jeg trodde vi skulle levere hele pakka, alt i én smell.",
+        
+        // --- PARR 78 ---
+        "En kollega nevnte en mulig revisjon, men vet ikke 🤔",
+        "Jeg sitter her med notatene, men de er ikke signerte.",
+        
+        // --- PARR 79 ---
+        "Ikke stress med marginene, det er bare en første skisse 😬",
+        "Men pass på at ingen viktig info går tapt i klippinga.",
+        
+        // --- PARR 80 ---
+        "Minner deg på at fristen faktisk er i morgen ettermiddag 🙂",
+        "Trodde det var neste uke, men jeg sjekket kalenderen nå.",
+        
+        // --- PARR 81 ---
+        "Hmm, jeg ser et hjerte i kommentarfeltet, men ingen tekst ❤️",
+        "Det går vel fint, men litt rart at alt ble tomt.",
+        
+        // --- PARR 82 ---
+        "Kan vi dytte inn et ekstra avsnitt på slutten? 🙂",
+        "Syns overskriften er litt kjedelig, men det funker vel.",
+        
+        // --- PARR 83 ---
+        "Bare en heads up: noen spredte rykter om forsinkelser 😅",
+        "Sjekk om du finner oppsummering fra sist, den er nyttig.",
+        
+        // --- PARR 84 ---
+        "Fikk en følelse av déjà vu her, alt virker litt repetert 🤔",
+        "Jeg legger det på is inntil videre, men rop ut hvis du er uenig.",
+        
+        // --- PARR 85 ---
+        "Forstår hvis du er lei alt dette maset, sorry 😬",
+        "Men jeg måtte bare høre om du hadde en rask løsning.",
+        
+        // --- PARR 86 ---
+        "Husker ikke hvem som godkjente layout sist 🙂",
+        "Tenk om vi faktisk har gått glipp av en mail fra systemet.",
+        
+        // --- PARR 87 ---
+        "Takk for liten smiley i forrige melding, gjorde dagen min 😊",
+        "Selv om jeg fremdeles ikke er helt ferdig, hjalp det litt.",
+        
+        // --- PARR 88 ---
+        "Følger du opp den feilen i testmiljøet, eller skal jeg? 😬",
+        "Kan bli en kjapp fix hvis vi vet eksakt hva som glipper.",
+        
+        // --- PARR 89 ---
+        "Tror jeg tar en pause nå, hodet koker litt 🙂",
+        "Gi bare beskjed om jeg skal fortsette i kveld eller ikke.",
+        
+        // --- PARR 90 ---
+        "Kjenner jeg glemte noe med budsjettet, men hva? 😅",
+        "Det står ingenting i regnearket om utgifter til den delen.",
+        
+        // --- PARR 91 ---
+        "Mulig vi bør omstrukturere alt på nytt 🤔",
+        "Men det krever nok et par ekstra dager i prosjektet.",
+        
+        // --- PARR 92 ---
+        "Endelig fikk jeg logget inn igjen, phew 😬",
+        "Merkelig at passordet ble avvist en stund, men nå er det ok.",
+        
+        // --- PARR 93 ---
+        "Fikk du sendt oppdateringen, eller vil du jeg skal? 🙂",
+        "Blir litt rot om begge sender hver vår, ikke sant.",
+        
+        // --- PARR 94 ---
+        "Fint om du gir et vink når ting er klart 😅",
+        "Jeg beveger meg videre mens vi venter på tilbakemelding.",
+        
+        // --- PARR 95 ---
+        "Anbefaler å notere alt, for jeg husker knapt detaljer 🤔",
+        "Forsøker å være proaktiv, men trenger litt info her.",
+        
+        // --- PARR 96 ---
+        "Jeg forstår frustrasjonen din, men rop om du vil prate 😬",
+        "Vi kan sikkert løse det sammen selv om alt er litt surrete.",
+        
+        // --- PARR 97 ---
+        "Veldig glad for at du sjekket manus en siste gang 🙂",
+        "Jeg var usikker på noen linjer, men tror det ble bra nå.",
+        
+        // --- PARR 98 ---
+        "Føler at listen over gjøremål vokser og vokser 😅",
+        "Tror vi trenger en prioriteringsøkt snart, ellers går vi oss bort.",
+        
+        // --- PARR 99 ---
+        "Tar du ansvar for publiseringen, eller vil du at jeg gjør det? 🤔",
+        "Uansett, gi meg en rask melding før du trykker på knappen.",
+        
+        // --- PARR 100 ---
+        "Ok, alt virker i orden, da sier jeg meg fornøyd 😬",
+        "Notene dine var til stor hjelp, tusen takk for det."
     ],
     medium: [
-        // 100 MELLOMLANGE MELDINGER (2–3 setninger, 150–250 tegn, kun ansikts/hjerte-emoji)
-        "Kanskje jeg burde sjekke loggene, men jeg vet ikke om jeg har tilgang 😬. Det virker som noen har endret passordet på hovedkontoen. Tror jeg må spørre om nøkkelinfo snart.",
-        "Så du forresten det dokumentet med rare bilder? 🙄. Virket litt useriøst, men noen har visst brukt det i presentasjonen. Kan du undersøke hvorfor de valgte akkurat det?",
-        "Jeg har lest kommentaren din, men skjønner fortsatt ikke poenget 😕. Tipper du trenger å utdype litt mer. Har du mulighet til å sende et eksempel?",
-        "Vet ikke om du la merke til det, men budsjettarket er blitt flyttet 😶. Kanskje en kollega har ryddet i fellesmapper. Uansett, jeg finner det ikke der det pleier å ligge.",
-        "Prøver å time alt riktig, men alt kommer samtidig 😬. Håper du kan ta den ene oppgaven, så deler vi litt på presset. Dette er helt vilt akkurat nå.",
-        "Jeg følte det var på tide å skrive en kjapp rapport, men usikker på lengden 🙄. Kanskje to sider holder, men jeg blir alltid litt for ordrik. Har du noen tips?",
-        "Har litt dårlig samvittighet for at jeg ikke rakk å svare i går 😕. Dagen løp fra meg og jeg fikk ikke summet meg. Håper det ordnet seg uansett.",
-        "Jeg er så lei av å gjenta meg selv, men ingen hører etter 😬. Kanskje jeg må skrive alt i store bokstaver, haha. Neida, men en eller annen rutine må på plass.",
-        "Fikk melding om at leveransen er forsinket, igjen 😕. Tenker det skaper trøbbel for neste steg i rekka. Tror vi må varsle alle i prosjektet om dette.",
-        "Har du et minutt til en kjapp avklaring? 🤔. Jeg sitter med to ulike tall, og aner ikke hvilken som er riktig. Vil ikke gjette når det haster sånn.",
-        "Ok, nå trenger jeg virkelig en liten pusteøvelse for å samle hodet 😶. Har alt gått i ball hos deg også? Dette er ingen drømmesituasjon for å si det sånn.",
-        "Jeg noterte noen stikkord i går, men forstår knapt min egen skrift 🙄. Vet bare at det var noe viktig om kl. 12. Kan du verifisere hva det gjaldt?",
-        "Har du merket at vi aldri blir helt ferdige med backloggen? 😕. Hver gang vi lukker en oppgave, dukker det opp to nye. Virker som en evig loop.",
-        "Så, vi mangler vel bare en siste godkjenning, eller hva? 🤔. Vet ikke om alt er 100 % perfekt, men vi kan ikke vente evig. La oss bare trykke “send”.",
-        "Jeg ble litt skuffet da jeg så resultatet i forrige uke 😞. Men vi kan kanskje snu det med noen forbedringer. Skal vi sette i gang en dugnad for å fikse det?",
-        "Mulig jeg tar feil, men jeg trodde vi avtalte at hver av oss skulle skrive en oppsummering 😶. Nå ser det ut som ingen har gjort det. Litt kjipt, egentlig.",
-        "Har du oppdatert passordene, for jeg kommer ikke inn lenger 🤔. Enten er jeg blokket, eller så har vi en systemfeil. Du vet hvor stressa jeg blir av sånt.",
-        "Siste rykte jeg hørte, var at fristen er forskjøvet til neste uke 🙂. Det passer meg utmerket, for jeg har ikke kommet særlig langt. Håper det stemmer!",
-        "Hvor ble det av den enkle oversikten jeg lagde, den er helt borte 😬. Kanskje jeg glemte å lagre. Hater når det skjer, for jeg brukte tross alt tid på det.",
-        "Jeg må bare si at jeg setter pris på at du tok deg tid til å lese gjennom alt 😄. Kunne ikke klart dette uten litt hjelp. Tusen takk!",
-        "Vet du hva, jeg tror jeg trekker meg fra nettmøtet i ettermiddag 😬. Er for mye annet å ta tak i. Send meg gjerne en oppsummering hvis noe kritisk dukker opp.",
-        "Flere kommenterer at vi har for mange e-postlister å forholde oss til 😕. Burde vi samle dem i én hovedkanal? Jeg er i ferd med å miste kontrollen.",
-        "Litt morsomt at vi prater om smidige metoder, men alt føles tungvint 😅. Kanskje vi bare kaller det smidig for å høres moderne ut. Håper du ikke tar det ille opp.",
-        "Jeg stirrer på arkene her, men ingenting gir mening 🙄. Trenger litt input fra deg før jeg kan gå videre. Hvis du har en ledig stund, si ifra!",
-        "Hørt noe mer om den eventuelle nyansatte? 🤔. Vi snakket om å få inn en ekstra ressurs, men jeg har ikke sett noe offisielt. Kanskje det bare var en idé.",
-        "Skulle vi ikke ha en liten feiring når milepælen var nådd? 🙂. Føler vi bør markere slike steg. Hva om vi bare tar med kake i lunsjen?",
-        "Å nei, jeg trykket “send alle” og nå tror jeg hele avdelingen fikk mailen 😬. Var ikke så farlig, men litt flaut da. Neste gang må jeg sjekke mottakerfeltet bedre.",
-        "Ser at du gjorde noen små endringer i forslaget 😄. Likte dem godt, faktisk. Takk for at du tok initiativ.",
-        "Tror du vi klarer å fullføre før klokka 16, eller blir det overtid? 😕. Jeg er litt spent, for jeg har planer i kveld. Men vi får se hva vi rekker.",
-        "Hmm, det er kanskje på tide å minne folk på tiltakslista, så ingen glemmer den 😶. Skal jeg sende ut en kjapp melding, eller tar du det?",
-        "Satte nettopp på en ny versjon av filen i fellesmappa 🙂. Bare se om alt er på plass. Jeg tror jeg fikk med meg alle punktene du ba om.",
-        "Prøver å lese dine notater, men ble litt svimmel av alt 🤔. Har du en kortversjon? Jeg trenger bare hovedtrekkene nå.",
-        "Hele systemet henger i sirup for tiden 😬. Skjønner ikke om det er serveren eller nettverket. Vi har ikke tid til å vente på en løsning i ukesvis.",
-        "Jeg er litt forvirra av at to sjefer sier motsatte ting 😕. Vet ikke hvem jeg skal lytte til. Kanskje jeg bare gjør en mellomting?",
-        "Gleder meg til roligere dager, men tror det ikke skjer før om en stund 😅. Har alt for mange prosjekter i lufta. Du også, eller er det bare meg?",
-        "Har du sett forslaget vårt i ny drakt, eller hopper vi rett på implementering? 🙄. Jeg håper noen tar en titt før vi trykker på startknappen.",
-        "Noen i teamet etterlyser at vi skriver tydeligere e-poster 🙂. Kanskje vi bør lage en enkel mal. Folk klager jo hele tida på at beskjeder er rotete.",
-        "Jeg leste en rapport som sier vi ligger godt an, men jeg føler ikke det 🤔. Kanskje tallene gir en annen historie. Har du innsikt i hva som er riktig her?",
-        "Beklager forsinket svar, jeg glemte fullstendig at du hadde spurt 😶. Ble litt fanget opp i en annen sak. Håper det ikke ødela planene dine.",
-        "Hadde håpet på en kjapp løsning, men ingenting er kjapt lenger 😬. Jeg tar en liten pause for å strekke meg. Så fortsetter jeg.",
-        "Må bare si at jeg digger energien du kom med i møtet i går 😄. Det hjalp faktisk å få en litt fresh start på uka. Stå på videre!",
-        "Så du hvem som endret malene våre i går kveld? 😕. Synes de ble litt rare. Kanskje ment godt, men nå finner jeg ikke ting der jeg forventer.",
-        "Ny mail tikket inn, og det står at vi må svare innen kl. 11 😬. Typisk kort varsel. Vel, jeg får skrive noe halvveis fornuftig.",
-        "Merker at vi har altfor stor backlog 😶. Mulig vi må avlyse noe for å få pusterom. Hva tenker du om prioriteringene?",
-        "Hei, hørte du om initiativet der vi samler ideer i en pad? 🤔. Jeg synes det er en god plan. Vi trenger litt innovasjon for å komme videre.",
-        "Jaha, nå vil visst noen at vi rapporterer timebruk daglig 😬. Føler det kan bli litt mye mikrostyring. Men jeg får vel bare tilpasse meg.",
-        "Hadde en følelse av at alt var for godt til å være sant 😶. Men la oss ikke bli for negative. Bare en påminnelse om at vi bør være realistiske.",
-        "Jeg skulle levere en kjapp status, men ble bombardert med nye spørsmål 🙄. Så nå har jeg enda mer å gjøre. Story of my life, haha.",
-        "Hvis du lurer på noe i siste presentasjon, spør i vei 😄. Prøver å være åpen for tilbakemeldinger. Vil jo at alt skal bli best mulig.",
-        "Noen kollegaer diskuterer i en egen tråd, men det er relevant for oss også 🤔. Skal vi hoppe inn og si vår mening? Ellers kan vi bli overkjørt.",
-        "Stor usikkerhet rundt lanseringsdatoen nå 😬. Jeg turte ikke presse for mye, men jeg spurte litt forsiktig. De virket ikke helt klare.",
-        "Får litt bange anelser av alt dette pratet om ‘restrukturering’ 😕. Kan bety at vi må flytte på folk og roller. Ingen vet noe sikkert, da.",
-        "Står fast på en setning i kontrakten, og jussen er helt gresk for meg 😬. Har du tid til å skumme raskt? Trenger litt definisjonshjelp.",
-        "Bare å rope ut hvis du vil ha noen til å se over, jeg har litt ledig tid 🙂. Hater når alt hoper seg opp i siste sekund, da blir man stressa.",
-        "Har du tips til hvordan vi navigerer i alt dette byråkratiet? 🤔. Kjenner jeg blir helt ør i hodet av papirarbeidet. Tidkrevende greier.",
-        "Jeg prøvde å være effektiv i dag, men endte opp med å surre med småting 😶. Kanskje jeg bare må kalle det en dag. Gir ikke mening å sitte her og rote.",
-        "Hadde egentlig fri i dag, men dukket opp en krise 😬. Du vet hvordan det går: Man blir dratt inn. Håper det roer seg før kvelden.",
-        "Folk spør om jeg har sett nye retningslinjer, men jeg finner dem ikke 🙄. Skal være i en pdf et sted? Virker som alt blir borte i kaoset.",
-        "Hvis du har en rask brukermanual, send den 😄. Jeg famler i blinde på denne nye appen. Skjønner ikke oppsettet i det hele tatt.",
-        "Du, jeg fikk en liten aha-opplevelse da jeg innså at vi dobbeltbooket lokalet 😬. Må kansellere noe eller finne et annet rom. Litt flaut, men sånn skjer.",
-        "Hvor ble det av diskusjonen om nye skiftordninger? 🤔. Syns alt stilnet brått. Kanskje ingen tør å ta tak i det?",
-        "Jeg ble litt overveldet av alle innspillene i dokumentet 😶. Har du oversikt over hva som faktisk er vedtatt? Føler vi roter altfor mye.",
-        "Tenkte jeg skulle gi en heads-up om at jeg ikke har fikset feilen på siden ennå 😬. Trodde jeg rakk det i går, men ble distrahert. Skal prioritere det i dag!",
-        "Må vi sende en formell beskjed til alle, eller holder det at vi sier fra i møtet? 🤔. Jeg vil bare unngå at noen føler seg overkjørt.",
-        "Får du dårlig samvittighet av å gå tidlig, eller er det bare meg 😕. Altså, jeg jobber jo ekstra på andre dager. Men litt rart føles det.",
-        "Ser at du la inn litt feedback i forslaget, kjempefint 🙂. Liker at du er konkret. Gjør det mye lettere å finpusse.",
-        "Tror jeg er tom for gode idéer akkurat nå 😬. Kanskje vi bare tar en liten brainstorming senere. Hodet mitt er overopphetet.",
-        "Kikket på vedleggene du sendte, men jeg forsto ikke alt 😕. Har du en kort versjon? Hvis ikke, skal jeg prøve å tolke det selv.",
-        "Skal vi prøve et lite eksperiment med arbeidsflyt? 🤔. Jeg hører at noen av kollegaene våre har veldig gode erfaringer med ny metode. Kunne vært gøy!",
-        "Det dukket opp en liten bug i testmiljøet, men jeg er ikke sikker på årsaken 😬. Kommer du inn i det, eller bør jeg melde fra til utvikler?",
-        "Haha, trodde jeg var alene om å slite med den tabellen 🙄. Den er jo totalt ulogisk. Fint å vite at jeg ikke er den eneste.",
-        "Hvis det haster, gi lyd nå. Jeg kan ikke gjette meg til hva folk vil ha 😕. Liker å få klare beskjeder.",
-        "Sjekk gjerne om du finner en navnefeil i oversikten. Jeg mener å ha sett en liten glipp 😅. Kanskje det bare er jeg som husker feil.",
-        "Har en anelse om at dette prosjektet blir større enn vi trodde 🙄. Kan fort balle på seg. Håper du er klar for mer jobbing!",
-        "Haha, jeg ble litt overrasket da jeg så filnavnet ditt 😅. Men bra innhold, altså. Bare kanskje rename det før vi viser det til alle?",
-        "Leveransen er visst kommet, men jeg er ikke i stand til å hente den nå 😬. Orker du en liten luftetur? De sa den kan hentes i resepsjonen.",
-        "Hører rykter om at vi får besøk fra sentralt hold i neste uke 🤔. Greit å vite, så vi kan rydde litt i rotet. Eller i det minste late som alt er på stell.",
-        "Meldte du fra om at vi trenger større budsjett, eller glemte du det? 😕. Vi er litt på tynn is hvis ikke. Ingen liker overskridelser.",
-        "Fint at du tenkte på en reservasjonsplan, men jeg ser ikke helt hva den går ut på 🙄. Forklar gjerne i to setninger, så jeg skjønner sammenhengen.",
-        "Føler meg litt alene om å rydde opp i dataene, men ok 😬. Tar en liten sjau nå, så får vi håpe noen blir med senere. Orker ikke sitte med alt selv.",
-        "Har du noe snadder å tilføye i presentasjonen, eller er den god som den er? 🙂. Jeg vil gjerne ha litt glød i budskapet.",
-        "Takk for påminnelsen om at jeg må puste 😅. Har gått i høygir i flere timer nå. En liten pustepause gjør kanskje susen.",
-        "Oppdaget en skrivefeil i rapporttittelen, litt pinlig 😬. Håper ikke den er sendt videre. Skal rette opp umiddelbart.",
-        "Synes du alt går litt trått for tida, eller er jeg bare pessimist? 😕. Jeg vil helst at det skal flyte bedre.",
-        "Tror vi trenger en felles oversikt over status, for nå er jeg forvirret 🙄. Ingen av systemene gir et klart bilde. Skikkelig puzzle!",
-        "Husket du å gi beskjed om at møtet ble flyttet, eller ikke? 😅. Jeg vil ikke at folk skal møte opp forgjeves. Litt for sent å si fra i siste sekund.",
-        "Hei, vil du at jeg skal ta kontakt med en ekstern konsulent, eller håndterer vi alt selv? 🤔. Jeg tror vi trenger litt hjelp, men du avgjør.",
-        "Fått noe ordentlig svar på den klagen, eller er vi i limbo? 😬. Synes alt henger i løse luften, og det gjør meg urolig.",
-        "Sjekket statussiden, ser ut som alt fungerer nå 🙂. Mulig nedetiden var kort. Bra det ikke ble mer drama.",
-        "Trenger bare en liten bekreftelse på at du har lest notatet 😅. Blir stressa av null reaksjon. Bare si ‘OK’ så jeg vet du har sett det.",
-        "Fikk melding om at en i teamet er sykemeldt hele uka 😕. Vi må kanskje omfordele oppgavene. Ikke helt optimalt, men sånn er det.",
-        "Så, har du en plan B liggende i baklomma, eller improviserer vi? 🙄. Jeg er litt blank, så håper du har noe i ermet.",
-        "Bruker litt ekstra tid i dag på å oppdatere alt, men det føles godt 🙂. Av og til må man bare rydde litt digitalt.",
-        "Jeg merker det bygger seg opp spenning i gruppa nå 😶. Kanskje en konflikt er i emning. Eller bare en liten misforståelse?",
-        "Har du en preferanse for hvilken dag vi tar fellesmøtet? 🤔. Jeg er åpen, men mandag kan være stress. Kanskje tirsdag?",
-        "Alle spør hvor jeg fikk tak i opplysningene, men jeg husker ikke 😅. Lurer på om jeg noterte kilde i farten. Jeg er litt virrete!",
-        "Så en melding i Slack om at prisingen endres, men ingen detaljer 😕. Det er jo kritisk for oss. Må finne ut av dette før vi fakturerer noe feil.",
-        "Et lite tips: Sett på påminnelser i kalenderen, ellers mister vi oversikten 😬. Jeg har brent meg på det før.",
-        "Er litt redd for at vi overkommuniserer i ulike kanaler, men ok 🙄. Bedre for mye info enn for lite, sikkert.",
-        "Tenker vi bør avslutte diskusjonen nå, ellers kjører vi oss fast 😶. Kan heller ta en avstemning om folk vil. Hva synes du?",
-        "Du skrev at du ikke var sikker, men jeg trenger et klart svar 😕. Sorry for å mase, men tida løper. Gi meg noe håndfast!",
-        "Kunne du sjekke om retningslinjene endret seg nylig? 🤔. Føler alt er i bevegelse, og jeg har ikke fulgt nok med.",
-        "Jeg forstår at du er opptatt, men har du to minutter til meg? 😅. Må bare klargjøre noe før jeg sender avgårde siste fil.",
-        "For en dag… alt går i sneglefart, og jeg rekker ikke halvparten 😬. Men men, i morgen er en ny sjanse!",
-        "Vi brukte ordet “foreløpig” mange ganger, men har vi noe endelig, tro? 😶. Jeg bare lurer, for ‘foreløpig’ gir meg lite å jobbe ut fra.",
-        "Ser at noen i gruppa er uenige, men jeg orker ikke megle akkurat nå 🙄. Håper de finner ut av det uten min innblanding.",
-        "Hadde du møtt opp i kantina, så kunne vi tatt en prat 😅. Men jeg satt der alene. Neste gang får vi avtale tydeligere.",
-        "Dytter bare over en liten fil, men usikker på om du trenger den 🤨. Kan være nyttig, eller helt irrelevant.",
-        "Trenger egentlig bare en liten bekreftelse på at tallene stemmer 🙂. Så kan vi gå videre og konkludere. Er du klar?",
-        "Så du min siste beskjed, eller forsvant den i mengden? 😕. Kan gjenta hvis du trenger det.",
-        "Jeg ga en tommel opp i kanalen, men vet ikke om det teller som bekreftelse 🙄. Tenker at vi bør være litt mer tydelige.",
-        "Ok, jeg bare puster rolig og håper alt ordner seg 🙂. Dette har vært en dag full av overraskelser.",
-        "Har du en rask forklaring på hvorfor alt plutselig ble så komplisert? 🤔. Trodde vi hadde en enkel plan.",
-        "Blir litt lattermild av at vi har gitt ulike svar på samme spørsmål 😅. Skjønner at kollegaer blir forvirra.",
-        "Takk for påminnelse om møtet i morgen, jeg holdt på å glemme det 😶. Lagde en alarm på telefonen.",
-        "Noen bare dukket opp i chatten og spurte om rare ting 😕. Jeg sa “spør en annen”, for jeg ante ikke!",
-        "Fint at du svarte raskt i stad, hjalp meg masse 🙂. Jeg slapp å gruble alene.",
-        "Skulle du ikke sjekke den filen før lunsj, eller glemte du? 🙄. Haster litt nå, dessverre.",
-        "Jeg overdriver sikkert, men alt virker totalt kaotisk 😬. Får se om vi finner en rød tråd snart.",
-        "Kan du tolke den setningen i instruksen? Jeg skjønner ikke hva de mener 😕. Litt for kryptisk for meg.",
-        "Jeg ser du var aktiv i Slack kl. 23 i går, jobber du så seint? 🤔. Pass på å få hvile litt også, da.",
-        "Må ta en kjapp sjekk med deg: Skal jeg fjerne punkt 4, eller la det stå? 😶. Usikker på prioritering.",
-        "Fikk en privat melding om at noe må endres, men du nevnte det ikke 😕. Har vi forskjellige versjoner?",
-        "Skal skrive en liten summary, men orker ikke ti sider 🤨. Komprimerer du, om jeg blir for lang?",
-        "Altfor mange nye begreper på en gang 😅. Jeg henger ikke med, men later som jeg gjør det.",
-        "Tror jeg sier ja til alt nå, har ikke tid til å være kritisk 🙄. Satser på at det er greit.",
-        "Håper vi kan feire litt når dette er over 🙂. En liten kake eller noe, bare for å markere.",
-        "Rart du ikke har fått mailen jeg sendte for to timer siden 😕. Kanskje jeg skrev feil adresse.",
-        "Jeg droppet å sjekke alt i går, var helt utmattet 😬. Kommer sterkere tilbake i dag.",
-        "Tiden gikk fra meg, og nå er klokka altfor mye 😶. Jeg får ta det igjen i morgen tidlig.",
-        "Tror vi trenger en stor skikkelig gjennomgang, men hvem har tid? 🙄. Ingen her i alle fall.",
-        "Ok, jeg velger å stole på magefølelsen 🙂. Selv om jeg ikke har bevis for at det funker."
+        // 100 MELLOMLANGE MELDINGER (2–3 setninger, 150–250 tegn), midt i tråd
+        // 50% (dvs 50) med ansikts/hjerte-emoji, 50% uten
+        
+        // For oversikt: Vi alternerer 1 med emoji, 1 uten, etc.
+        
+        // 1 (emoji)
+        "Fikk akkurat en beskjed om at vi bør omskrive deler av teksten 😬. Tydeligvis var språket litt for internt. Satser på at du kan rette på det i neste runde.",
+        // 2 (uten emoji)
+        "Tror vi må sjekke revisjonshistorikken igjen. Noen endret på tabellene i går, men la ikke igjen kommentar. Litt kjedelig å måtte gjette seg frem.",
+        // 3 (emoji)
+        "Har du lagt merke til at forslaget ble tatt godt imot? 🙂 Jeg fikk et par tilbakemeldinger som virket positive. Så langt tyder alt på en god fortsettelse.",
+        // 4 (uten emoji)
+        "Kort spørsmål: Var det meningen at vi skulle slette de gamle filene? Jeg så en beskjed om det, men ingen bekreftelse på at det faktisk var utført.",
+        // 5 (emoji)
+        "Jeg tipper at neste steg er å samle inn feedback fra flere 😅. Kan bli litt mas, men bedre å vite før vi kjører i gang. Tar du en liten runde i chat?",
+        // 6 (uten emoji)
+        "Tror ikke jeg rakk å svare på siste mail. Får se over den i løpet av kvelden, eller i verste fall i morgen. Håper ingen venter en rask respons akkurat nå.",
+        // 7 (emoji)
+        "Ja, jeg skulle egentlig avslutte, men så dukket det opp noe 🤔. Fikk et dokument i fanget som jeg ikke aner hvor kommer fra. Kan du sjekke om du kjenner igjen filnavnet?",
+        // 8 (uten emoji)
+        "Takk for oppdateringen. Godt å vite at du har kontroll. Jeg så forresten en liten feil i kapittel to, men vet ikke om det er viktig.",
+        // 9 (emoji)
+        "Husker du spurte om den nye løsningen? 🙂 Jeg sjekket den kjapt, og det virker ok. Men litt tungvint registrering kan irritere brukerne, bare så du vet.",
+        // 10 (uten emoji)
+        "Ble litt forvirret av siste Slack-melding fra gruppa. De nevnte en plan, men ingen detaljer. Vi får kanskje en offisiell forklaring om ikke lenge.",
+        // 11 (emoji)
+        "Jeg fikk en advarsel om lav lagringsplass 😬. Har vi mulighet til å slette noe gammelt? Ikke lyst til at alt skal krasje midt i en viktig opplasting.",
+        // 12 (uten emoji)
+        "Avklarte du forresten om vi skal dele filene offentlig? Jeg er litt skeptisk, men samtidig er åpenhet bra. Kan trenge en rask bekreftelse.",
+        // 13 (emoji)
+        "Virker som alt stopper opp hvis vi ikke tar grep nå 🤔. Noen må bare si at vi endrer rute. Er du enig i at vi tar en liten omvei?",
+        // 14 (uten emoji)
+        "Hmm, er litt i stuss på om alt er forenlig med retningslinjene. Det står ingenting om nye rutiner i den gamle prosedyreboka. Mulig vi bør lage en midlertidig løsning.",
+        // 15 (emoji)
+        "Yay, jeg fant endelig passordet til arkivet 😅. Nå kan vi sjekke de gamle prosjektene for inspirasjon. Håper vi slipper å lete altfor lenge.",
+        // 16 (uten emoji)
+        "Ser at noen markerte en del filer som ugyldige. Kanskje de er duplikater, eller noe vi ikke trenger mer. Skal jeg slette dem, eller bare flytte dem til en midlertidig mappe?",
+        // 17 (emoji)
+        "Fikk en uventet forespørsel her, og jeg er usikker på svaret 🙂. Tenker kanskje du vet bedre, siden du var i forrige møte. Kan du gi en rask avklaring?",
+        // 18 (uten emoji)
+        "Mottok en logg som viser flere merkelige feil. Ikke helt kritisk, men vi bør holde øye med det. Vet du om noen allerede jobber med en fiks?",
+        // 19 (emoji)
+        "Skal jeg kontakte support, eller prøver vi å feilsøke selv først? 🤔 Jeg er litt delt, for det kan ta tid med eksterne. Du kan jo gi et hint om hva du foretrekker.",
+        // 20 (uten emoji)
+        "Har du sett den nye stilen på forsiden? Det var visst en test, men nå er den synlig for alle. Litt overraskende at ingen varslet om designendringene.",
+        // 21 (emoji)
+        "Jeg skrev en kjapp forklaring på endringene 😬. Kan du lese gjennom den og si om jeg har glemt noe? Helst snart, så jeg får sendt det videre i dag.",
+        // 22 (uten emoji)
+        "Takk for hjelpen du ga meg i går. Det gjorde ting mye enklere. Lover å betale tilbake i form av en omvisning i systemet hvis du vil.",
+        // 23 (emoji)
+        "Klødde meg i hodet over den feilmeldingen 😅. Viser seg at det bare var en liten skrivefeil i koden. Nå funker alt igjen, heldigvis!",
+        // 24 (uten emoji)
+        "Fikk plutselig en henvendelse fra en ekstern partner. De lurte på om vi har kapasitet til å ta inn en ekstra ordre. Jeg lovet å sjekke med deg først.",
+        // 25 (emoji)
+        "Kan hende jeg roter litt med filbanen 🤔. Har for mange mapper som heter nesten det samme. Du vet, ordning og reda er ikke min sterkeste side.",
+        // 26 (uten emoji)
+        "Ønsker du at jeg skal oppsummere alt i en e-post? Tenker det kan være lurt. Da får vi en felles tråd og mindre forvirring videre.",
+        // 27 (emoji)
+        "Så du den lille kommentaren nederst i dokumentet? 😊 Jeg synes den var nyttig, men usikker på om vi skal la den stå. Fint å få en second opinion.",
+        // 28 (uten emoji)
+        "Prøvde å bruke søkefunksjonen, men den ga null treff. Kan være jeg brukte feil nøkkelord. Har du en spesiell tittel på det avsnittet du nevnte?",
+        // 29 (emoji)
+        "Jeg skal være offline en stund etter lunsj 😬. Så bare ping meg nå hvis det er noe viktig. Etterpå er jeg litt utilgjengelig.",
+        // 30 (uten emoji)
+        "Vet du om vi faktisk arkiverte forrige versjon, eller forsvant den helt? Skulle gjerne hatt den som backup. Skriker hvis jeg finner en kopi.",
+        // 31 (emoji)
+        "Har en følelse av at noe ble glemt ved lanseringen 🤔. Kanskje bare en liten formalitet, men det hadde vært kjekt å få det riktig. Ingen panikk, men fint å sjekke.",
+        // 32 (uten emoji)
+        "Så nettopp at du la ut en melding i forumet. Bra initativ. Håper vi får de svarene vi trenger før helga.",
+        // 33 (emoji)
+        "Byttet du passordet nylig, eller har vi en glitch? 😅 Jeg kom ikke inn i systemet, men mulig jeg bare skrev feil. Kan du teste raskt?",
+        // 34 (uten emoji)
+        "Ser i notatene dine at du hadde en plan B. Har du lyst til å dele den med flere? Kanskje det løser en del bekymringer for resten av gjengen.",
+        // 35 (emoji)
+        "Jeg brukte litt tid på å finpusse PDF-en 🙂. Håper du liker layouten nå. Kom med feedback hvis noe mangler.",
+        // 36 (uten emoji)
+        "Beklager eventuelle duplikater, men jeg sendte en ny e-post for sikkerhets skyld. Ville være helt trygg på at du mottok oppdateringene.",
+        // 37 (emoji)
+        "Tror vi trenger en minidugnad for å rydde i filstrukturen 😬. Det har hopet seg opp med gamle versjoner. Skal vi sette av tid i ettermiddag?",
+        // 38 (uten emoji)
+        "Jeg har ikke hørt noe om de nye retningslinjene. Kanskje jeg må sjekke intranett. Greit å vite før vi legger ut informasjon offentlig.",
+        // 39 (emoji)
+        "Snakket så vidt med en kollega om samarbeidet 🤔. Virker som det går bra, men litt usikker på rollefordelingen. Kan du avklare litt?",
+        // 40 (uten emoji)
+        "Godt mulig jeg glemte å sende deg det siste bilaget. Skal lete litt i e-posten min. Mistenker at jeg har for mange kladder liggende.",
+        // 41 (emoji)
+        "Skal bare lese gjennom en siste gang 😅. Vil være sikker på at jeg ikke godkjenner noe feil. Roper ut hvis jeg finner noe rart.",
+        // 42 (uten emoji)
+        "Takk, da vet jeg at alt ble registrert korrekt. Har oppdatert systemet med nye data. Satser på at det nå gir riktig statistikk.",
+        // 43 (emoji)
+        "Prøvde å ringe deg, men du var opptatt 🙂. Ikke noe akutt, men si fra når du har tid. Bare en kjapp avklaring jeg trenger.",
+        // 44 (uten emoji)
+        "Jeg trodde du skulle legge inn vedlegget i fellesmappen. Men kanskje du la det i en privat mappe ved en feil. Kan du sjekke?",
+        // 45 (emoji)
+        "Fikk en liten klapp på skuldra for oversikten min 😅. Men egentlig var det du som gjorde mesteparten. Ville bare at du skulle vite det!",
+        // 46 (uten emoji)
+        "Regner med at vi ikke trenger hele rapporten i dag. Men om du har tid, hadde det vært fint med et sammendrag. Kommer litt an på hvor mye vi vil sende videre.",
+        // 47 (emoji)
+        "Merket at chatten var veldig stille nå 🤔. Kanskje alle har tatt lunsjpause. Prøver igjen om en times tid.",
+        // 48 (uten emoji)
+        "Jeg lastet ned alt og fikk zip-filen med alt samlet. Den var diger, men jeg har oversikt. Gi meg en time, så har jeg en slags struktur.",
+        // 49 (emoji)
+        "Sender en liten hilsen med et smil 🙂. Håper du ikke stresser for mye der borte. Jeg tar meg av det jeg kan så lenge.",
+        // 50 (uten emoji)
+        "Avslutter snart dagen, men rop hvis det haster. Tror vi er ajour med det meste, men man vet aldri. God kveld når du kommer så langt.",
+        // 51 (emoji)
+        "Heisann, glemte helt å svare deg i sta 😬. Ble litt overrumplet av en spontansak. Skal se på det du sendte nå.",
+        // 52 (uten emoji)
+        "Jeg har ikke hørt noe negativt om forslaget, så kanskje det er godkjent. Men helt bekreftet er det vel ikke. Kun en stille aksept.",
+        // 53 (emoji)
+        "Du, jeg fant et morsomt punkt i protokollen 🙂. Står at vi skal ta en \"pizza-dag\" hver måned, haha. Har du sett sånt før?",
+        // 54 (uten emoji)
+        "Hmm, spørs om ikke et par av de kolonneoverskriftene er litt misvisende. Vi risikerer forvirring. Kan du rydde i dem?",
+        // 55 (emoji)
+        "Har lagt et lite hjerte i filnavnet, bare for å kjenne den gode stemningen ❤️. Neida, men rop ut hvis du vil jeg skal endre. Innholdet er tross alt viktigst.",
+        // 56 (uten emoji)
+        "Folk maser litt om tempoet vårt. Men vi kan ikke forhaste oss. Foretrekker heller at det blir riktig enn hastearbeid.",
+        // 57 (emoji)
+        "Har du backup av fjorårets data? 😬 Jeg ser ikke noe i arkivet mitt. Kan være noen arkiverte det på en ekstern disk.",
+        // 58 (uten emoji)
+        "Ser ut som kollegene har forskjellige meninger om rekkefølgen. Vi kan samle dem til en enighet, eventuelt kjøre en rask avstemning. Hva tenker du?",
+        // 59 (emoji)
+        "Puh, nå ble jeg litt svett av alle nye krav 🤔. Men greit nok, vi tilpasser oss. Satser på at det roer seg igjen.",
+        // 60 (uten emoji)
+        "Har du publisert noen av de nye modulene i testmiljøet? Jeg ser ingenting på loggen, men kanskje du la det ut i en annen gren.",
+        // 61 (emoji)
+        "Tror jammen jeg fant en enkel måte å sortere alt på 🙂. Skal bare oppdatere deg straks jeg har testet litt. Håper det sparer oss for mye rot.",
+        // 62 (uten emoji)
+        "Husker ikke om du nevnte en spesifikk frist for del to. Leste raskt gjennom, men fant ingen tydelig dato. Kanskje den må bestemmes snart.",
+        // 63 (emoji)
+        "Jeg ble litt overrasket over at tallene var såpass lave 😬. Vi får kikke på årsakene. Mulig en liten justering i kampanjen er på sin plass.",
+        // 64 (uten emoji)
+        "Om du vil, kan jeg bare ta en rask sjekk av alt før du sender inn. Da slipper vi dumme feil. Men du bestemmer, jeg presser ingen.",
+        // 65 (emoji)
+        "Litt artig at jeg akkurat fikk en beskjed med nesten samme spørsmål 😊. Godt vi er synkroniserte! Jeg svarer i henhold til det du foreslo.",
+        // 66 (uten emoji)
+        "Lurte på om noen hadde innsigelser på kladden du la ut. Ser ingen kommentarer, så kanskje alle er fornøyde. Jeg tar det som et godt tegn.",
+        // 67 (emoji)
+        "Kommer du på den lille gjennomgangen klokka to? 🙂. Hadde vært fint med dine innspill. Du har ofte en annen vinkling enn de fleste.",
+        // 68 (uten emoji)
+        "Registrerte forresten en klage fra en bruker. Tror ikke det er alvorlig, men vil nevne det likevel. Kanskje bedre å fikse før det blir et større problem.",
+        // 69 (emoji)
+        "Fikk en impuls om å organisere en liten felles-lunsj 😬. Sjekke stemninga i gruppa? Er jo kjekt å møte ansikt til ansikt en gang iblant.",
+        // 70 (uten emoji)
+        "Det kan hende jeg glemte å pinge deg i forrige melding. Beklager hvis det skapte forvirring. Sjekk gjerne arkivet for notatet.",
+        // 71 (emoji)
+        "Så bra at du fant en enklere løsning 🤔. Jeg synes alt for ofte vi gjør ting komplisert. Tusen takk for at du forenklet det.",
+        // 72 (uten emoji)
+        "Jeg lastet opp en forenklet oppskrift på rutiner. Den er ikke offisiell ennå, men se gjennom og si fra hvis noe er rart. Kan endres før publisering.",
+        // 73 (emoji)
+        "Fikk litt ro nå til å gå over dokumentet 😅. Ser at et par avsnitt er duplisert. Skal jeg fjerne dem, eller er det med vilje?",
+        // 74 (uten emoji)
+        "Kun en ting jeg stusser over: Hvorfor står den nye instruksen bakerst? Kan være lurt å flytte den opp. Brukerne leser ofte bare første del.",
+        // 75 (emoji)
+        "Du, jeg ble litt sjarmert av at du la inn et smilefjes i overskriften 😊. Det er nok uvanlig, men hey, kanskje det funker. Har ingen klaget ennå.",
+        // 76 (uten emoji)
+        "Fortsatt ingen svar fra den ansvarlige personen? Jeg begynner å bli litt utålmodig. Kan hende vi bare går videre uten dem.",
+        // 77 (emoji)
+        "Mener du vi bør ringe en klokkeklar alarm her? 😬. Jeg vil ikke overdrive, men heller ikke bagatellisere. Er litt i tvil, altså.",
+        // 78 (uten emoji)
+        "Hvis alt virker stabilt nå, kan vi kanskje markere oppgaven som løst. Forbehold om at ingenting krasjer i morgen. Spennende tider.",
+        // 79 (emoji)
+        "Kjenner jeg ble lettet da jeg så bekreftelsen 🤔. Da kan vi slippe taket i den bekymringen. Vet du om neste steg går automatisk?",
+        // 80 (uten emoji)
+        "Jeg skrev bare en kort melding i Slack om fremdrift. Tenkte du skulle vite det, så du ikke blir overrasket. Lettere å holde kollegaer i loop.",
+        // 81 (emoji)
+        "Forresten, godt jobbet med de nye figurene i rapporten 🙂. De er enkle å lese. Bare håper folk forstår fargekodene helt klart.",
+        // 82 (uten emoji)
+        "Synes vi bør avklare litt i plenum før vi konkluderer. Det er mye uvisshet her. Vil ikke at vi konkluderer på feil grunnlag.",
+        // 83 (emoji)
+        "Jeg kan skrive en midlertidig konklusjon om du vil 😅. Men den er midlertidig, altså. Folk må gjerne rette på den senere.",
+        // 84 (uten emoji)
+        "Flere lurer på om vi har en offisiell spørsmålsrunde. Kanskje det er lurt før vi roter oss bort i masse misforståelser. Bare en tanke.",
+        // 85 (emoji)
+        "Holdt nesten på å si at jeg gir opp 🤔. Men jeg tar et dypt pust og fortsetter. Håper du er med på laget!",
+        // 86 (uten emoji)
+        "Ingen har vist tegn til motforestillinger på forslaget så langt. Det er et godt tegn, men vi vet jo at folk kan ombestemme seg. Så litt reserverte er vi.",
+        // 87 (emoji)
+        "Sjekket nettopp filnavnene, alt så fint ut 😊. Jeg beholder ordlyden du foreslo. Bare si fra hvis jeg må endre noe i siste liten.",
+        // 88 (uten emoji)
+        "Ble ferdig litt før fristen, utrolig nok. Skal bare lastes opp et sted nå. Jeg antar du vet hvor, for jeg har ikke fått beskjed om mappenavn.",
+        // 89 (emoji)
+        "Kjennes godt å få en liten klapp på skuldra 🙂. Takk for anerkjennelsen. Jeg ble motivert til å fortsette!",
+        // 90 (uten emoji)
+        "Regner med at neste gang vi møtes, har vi flere svar. I mellomtiden forbereder jeg en enkel presentasjon. Det blir ikke fancy, men funksjonelt.",
+        // 91 (emoji)
+        "Vet at jeg har spurt før, men husker du passkoden? 😬. Skjønner det er irriterende, men jeg mistet notatet. Stor takk om du deler den igjen.",
+        // 92 (uten emoji)
+        "Er litt usikker på hva som gjenstår. Føler alt er sagt og gjort. Men det dukker som regel opp et eller annet i siste liten.",
+        // 93 (emoji)
+        "Satt akkurat og humret for meg selv da jeg så kommentaren din 🤔. Må si du har en morsom formuleringsevne. Håper ingen tar det feil.",
+        // 94 (uten emoji)
+        "Takk, nå ser jeg tydelig hva du mente med \"dobbelt opp\". Vi hadde kopiert en hel seksjon. Jeg sletter den ene, så er vi i rute igjen.",
+        // 95 (emoji)
+        "Jeg tror jeg ble litt for ivrig og oversendte altfor mye info 😅. Håper mottakeren ikke blir helt overveldet. Kanskje jeg burde advart.",
+        // 96 (uten emoji)
+        "Skal oppsummere dette til en leder, men jeg vet ikke helt hvordan. Kanskje jeg bruker kulepunkter og holder det kort. Mindre er ofte bedre.",
+        // 97 (emoji)
+        "Heh, ser ut som alt ble ganske bra likevel 🙂. Vi var bekymret for ingenting. Får bare håpe ingen oppdager nye feil etter lansering!",
+        // 98 (uten emoji)
+        "Planen var å trekke ut hovedpoengene, men jeg ble litt sidetracked. Kanskje du vil forsøke? Du er bedre på å strukturere tekst.",
+        // 99 (emoji)
+        "Jeg har hatt en rar dag, men takk for at du sto i stormen 🤔. Du ga meg ro når alt var kaos. Setter veldig pris på det.",
+        // 100 (uten emoji)
+        "Med det tror jeg vi kan si oss ferdige for nå. Bare kryssjekk litt i morgen, så er vi helt sikre. Tusen takk for samarbeidet."
     ],
     long: [
-        // 50 LANGE MELDINGER (flere setninger, 550–900 tegn, kun ansikts/hjerte-emoji, midt i tråd)
-        "Hei, jeg prøvde virkelig å lage en punktliste over alle oppgavene som gjenstår, men jeg fant ut at det allerede lå flere halvferdige lister i fellesmappa 😬. Nå er jeg litt usikker på hvilken som faktisk er gjeldende, og hvilke som bare ble liggende igjen fra tidligere forsøk. Kanskje vi bør samle alt i ett dokument og markere dato, så vi ikke forveksler gammelt og nytt? Jeg tenkte bare jeg skulle si fra før jeg roter det til enda mer. Du vet hvordan det er: Fem ulike lister kan fort skape total forvirring. Har du lyst til å hjelpe meg med å rydde i dette, eller skal jeg bare gjette meg fram?",
-        "Fikk en litt forvirrende melding om at vi skal reorganisere prosjektet 😕. Noen sa at halvpardene i arbeidsgruppen bytter roller, mens andre mener vi bare dropper et par av de mindre sakene. Jeg vet ikke hva som er sant, for ingen har sendt en offisiell oppdatering. Har du hørt noe mer konkret? Hvis alt er i endring, bør vi nok få beskjed så fort som mulig, ellers planlegger vi i blinde. Jeg frykter litt at vi jobber med feil prioritering nå.",
-        "Jeg kommer fra et møte der jeg følte meg litt dum, fordi jeg ikke forsto halvparten av faguttrykkene 😬. De slengte rundt med forkortelser og teknisk sjargong, og jeg satt der og nikket. Kanskje jeg burde ha spurt om forklaring, men jeg ville ikke avbryte flyten. Tenkte jeg skulle sjekke med deg om du kjenner til alt dette fra før. Hvis du gjør det, kan vi ta en kjapp prat så jeg slipper å stå på bar bakke neste gang. Føler jeg må ta grep her, men trenger en liten innføring.",
-        "Jeg fikk en bråhast melding fra en ekstern kontakt, men alt sto på engelsk i en veldig formell tone 😶. Har prøvd å oversette mesteparten, men er redd for å miste noen nyanser. De nevner deadlines, endringer og mulig tilleggskontrakt. Har du tid til å se over oversettelsen min, bare for å forsikre oss om at vi svarer riktig? Ellers risikerer vi at vi misforstår noe viktig. Jeg er litt svett av å løpe mellom prosjekter og oversettelser, men vi får bare gjøre vårt beste.",
-        "Haha, jeg trodde virkelig at vi hadde fikset problemet i forrige versjon, men jammen dukket det opp igjen 🙄. Nå sitter jeg her og lurer på om vi aldri kommer i mål. Kan det være at vi bare lappet over en mindre del av feilen sist, og ikke tok tak i selve roten? Har du mulighet til å grave litt i koden eller loggene, så vi finner kilden en gang for alle? Jeg er litt lei av å si «nesten ferdig» og så plutselig oppdage noe nytt. Kanskje en grundig gjennomgang er nødvendig, men da bør vi sette av tid.",
-        "Jeg har en følelse av at det har hopet seg opp litt frustrasjon i teamet 😬. Flere har nevnt at de ikke fikk dele innspill før alt ble besluttet, og nå sitter vi igjen med vedtak som noen ikke støtter. Tror det er lurt å samle alle i en kort prat, bare for å lufte ut og høre alle perspektiver. Jeg vet du er travel, men en slik rundebord kan spare oss for mye irritasjon på sikt. Ellers ender vi med at folk jobber halvhjertet fordi de ikke følte seg hørt.",
-        "Du, jeg tenkte bare nevne at jeg egentlig ikke har lagt planer for neste måned, men jeg får signaler om at vi kanskje skal i gang med et stort fellesprosjekt 🤔. Ingen har bekreftet noe, men det surrer rykter i gangene. Ville bare si at jeg er litt gira på å delta hvis dette blir realisert, men jeg trenger en offisiell beskjed før jeg kan avbryte de andre tingene jeg gjør. Vet du noe mer om status, eller bør jeg vente tålmodig?",
-        "Jeg ser at du la ut en kommentar i Slack om budsjettendringer, og jeg skjønte halvveis hva du mente 😕. Men jeg lurer på om vi har noen tall å vise til, eller var det mer en generell følelse av at vi trenger mer midler? Hvis vi faktisk skal endre budsjettet, må vi jo ha en konkret begrunnelse. Jeg er litt spent på reaksjonene fra de som passer på pengene, for de er ofte skeptiske. Gi meg gjerne en lyd om du har mer kjøtt på beinet.",
-        "Hadde en lang prat med en kollega som fortalte at mange i avdelingen føler seg litt skviset mellom to ulike prioriteringer 🙄. Vi fikk to planer fra hver sin leder, og begge krever like mye fokus. Ikke rart at folk er forvirra. Kanskje vi skal foreslå en felles prioriteringsliste, hvor vi faktisk setter tall på hva som haster mest? Jeg tror det er eneste måten å unngå total kollisjon av oppgaver. Hva tenker du?",
-        "Jeg strevde med å gi en skikkelig fornuftig presentasjon i dag 😬. Manglet noen viktige grafer, og da ble hele budskapet litt svakt. Fant senere ut at grafene lå i en annen mappe, men jeg rakk ikke hente dem. Tipper publikum lurte på om jeg visste hva jeg drev med. Neste gang bør vi samle alt på ett sted før vi kaster oss ut i fremleggelsen. Følte meg litt smådum, men sånn er det noen ganger.",
-        "Skulle gjerne hatt en kjapp godkjenning på om vi går videre med forslaget om ny layout 😕. Jeg så du skrev noe om at vi måtte konferere med en overordnet gruppe, men tiden flyr. Hvis vi ikke bestemmer oss nå, kan vi miste muligheten. Kan du bare si ja eller nei, så samler jeg det i en kort mail og sender videre? Om vi utsetter enda en gang, blir alle frustrerte.",
-        "La merke til at du oppdaterte filnavnene til noe mer ryddig 🙄. Takk, det var absolutt på tide. Jeg har sitti i evigheter og lurte på om «dokument_v2_siste_endring_endelig» faktisk var den nyeste versjonen eller ei. Nå som alt har klarnet, kan jeg jobbe effektivt. Du aner ikke hvor mye tid man sparer på ordentlige filnavn!",
-        "Jeg skjønner at vi ønsker å fremstå profesjonelle, men forrige infomail ble så tunglest at jeg knapt gadd å åpne den 😕. Kunne vi ikke delt den opp i flere avsnitt, eller brukt litt mer vennlig språk? Jeg vet noen liker formelt oppsett, men jeg tror en del av mottakerne våre setter pris på litt mer luft i teksten. Hadde vært gøy å prøve en mer menneskelig stil, selv i offisielle meldinger.",
-        "Fikk en telefon midt under lunsjen i dag, og det var visst en kunde som lurte på en teknisk detalj jeg ikke har peiling på 🙄. Jeg prøvde å forklare at jeg ikke er rette vedkommende, men de insisterte på at jeg sto som kontaktperson. Gikk litt i surr, men jeg sa jeg skulle be noen ringe dem tilbake. Kan du være den noen? Jeg orker ikke kaste bort tid på ting jeg ikke kan svare for.",
-        "Ble helt slått ut da jeg så at en av de viktigste rapportene våre var full av skrivefeil 😬. Vet ikke hvem som sist redigerte, men jeg antar det gikk litt fort i svingene. Nå må vi enten rette opp manuelt eller be om en ny versjon. Er redd for å levere noe halvveis, for vi vet jo at dette dokumentet skal deles med eksterne. Har du tid til å korrekturlese?",
-        "Prøver å huske når vi sist sjekket nøkkelresultatene i prosjektplanen 😕. Har en følelse av at vi ikke har sett på dem siden oppstarten. Kanskje på tide å se om vi faktisk følger stien vi tråkket opp. Jeg vil ikke ende i en situasjon der vi er helt avsporet og ingen oppdaget det. Så, hva sier du? Skal vi ta en liten kikk og plotte status?",
-        "Har en litt rar følelse av at vi glemte å invitere en deltaker som burde vært med i samtalen 🙄. Det skjedde så fort, og vi slang ut link til møtet, men ingen nevnte vedkommende. Kan du sjekke om de burde ha vært der? Føler meg litt slem om vi utelukker folk ved et uhell. Vil ikke at noen skal sitte og lure på hvorfor de aldri fikk beskjed.",
-        "Jeg scrollet gjennom meldingene våre for å se om jeg hadde lovet noe jeg ikke har levert 😅. Fant ingenting spesifikt, men det kan hende jeg har oversett noe. Blir litt redd for å dumme meg ut ved å gå glipp av en oppgave. Har du oversikt, eller er det bare jeg som bekymrer meg unødig? Bedre å være safe enn sorry.",
-        "Hei, jeg vet ikke om du fikk det med deg, men vi planla en samling for å prate om neste kvartal 😬. Tingen er at jeg ikke ser at noen tok initiativ til tid og sted. Vi snakket løst om det på Slack, men ingen formaliserte noe. Nå tikker tiden, og jeg tror vi må handle. Kan du og jeg bare bestemme et tidspunkt, og så rope ut til resten?",
-        "Fant nettopp ut at tidsregistreringssystemet er mye strengere enn før 🙄. Glemte å logge en dag, og nå er alt låst så jeg ikke kan legge til i etterkant. For en upraktisk greie! Tenkte jeg kunne høre om du har en smidig måte å fikse det på. Hvis ikke, får jeg vel bare leve med et hull i timelista mi.",
-        "Forrige uke lovet vi vel å gå gjennom alle klagene, men har ikke sett noe skje 😬. Jeg kjenner et stikk av dårlig samvittighet. Kunden nevnte at de følte seg ignorert. Bør vi skynde oss å vise at vi tar ting seriøst? Jeg kan gjerne ta en liten runde og filtrere klagene før vi diskuterer dem sammen.",
-        "Noen i en annen avdeling påstår at vi tok feil da vi endret rekkefølgen i prosjektet 😕. Skjønner ikke helt problemet, men de virker ganske irriterte. Kunne vi få en enkel forklaring på hvorfor vi gjorde det? Jeg vil unngå en stor konflikt hvis det bare handler om å kommunisere bedre. Håper du vet noe mer enn meg.",
-        "Jeg ble så overrasket da jeg så en helt ny prosessbeskrivelse dukke opp i fellesdokumentet 🙄. Ikke hørt en lyd om at noen jobbet med det. Kanskje en av kollegaene tok initiativ på egen hånd? Uansett er det supert med forbedringer, men litt greit å koordinere. Kan vi finne ut hvem som står bak og gi en klapp på skuldra?",
-        "Bare en kjapp oppdatering: Jeg har ikke glemt at jeg skulle sende en plan for opplæring 😶. Satt faktisk med den i går, men så kom en hastegreie i veien. Skal prøve å ferdigstille i løpet av kvelden. Tenkte bare å gi deg et hint om at jeg jobber med saken, så du ikke tror jeg har forsvunnet i tåka.",
-        "Noen sa at du hadde en super idé for å løse rapporteringa 😄. Jeg vil gjerne høre den, for jeg føler vi står fast i gammel rutine. Har du skrevet noe ned, eller vil du bare fortelle meg kjapt? Jeg er lutter øre, for alt som kan gjøre hverdagen lettere er velkomment.",
-        "Har du merket at e-postene bare flyter forbi uten at noen svarer? 😬. Jeg skjønner at folk er travle, men vi må faktisk ha bekreftelser på visse ting. Tenkte jeg skulle sende en liten påminnelse om at det haster. Men jeg vil ikke mase for mye, heller.",
-        "Om jeg ikke tar feil, så avtalte vi å samkjøre designet med en ekstern partner 🙄. Men nå ser jeg at vi har kjørt på med egne endringer uten å varsle dem. Kan bli litt klabb og babb senere. Bør vi ringe dem og si fra før alt er for seint?",
-        "Jeg satt med en loggfil i en evighet og fant ingenting galt 😕. Så oppdaget jeg at jeg hadde sett i feil logg. Typisk meg! Nå vet jeg ikke om jeg orker en runde til, men vi må vel. Har du en enklere metode for å spore feilen?",
-        "Ser ut som noen skrudde på ‘autocorrect from hell’, for i Slack-kanalen flommer det av merkelige ord 😬. Ingen forstår hva som menes. Skal vi bare ignorere det, eller si fra om at noen bør slå av de instillingene? Jeg humrer litt, men det er kanskje ikke så profesjonelt.",
-        "Jeg sjekket en gammel melding fra deg, og det sto noe om at vi burde oppdatere passordene hver måned 😶. Har vi fulgt det? Jeg er nok selv ganske slurvete, for jeg husker knapt passordet jeg har nå. Får se om jeg tar meg sammen i kveld og endrer det.",
-        "Fikk en litt spesiell henvendelse om å delta i et webinar, men er usikker på om det er relevant 😬. De vil visst at vi presenterer suksesshistorien vår, men jeg er ikke sikker på hvor suksessfull den er… Kjenner du til noe vi kan vise fram? Ellers virker det litt tomt.",
-        "En i teamet spurte om det er ok at vi utsetter alt til neste uke 🤔. Det høres digg ut, men jeg aner ikke om det er forsvarlig. Kanskje litt risky, siden fristene står i systemet. Jeg tror vi må sjekke med ledelsen før vi bare skyver på alt.",
-        "Har tenkt litt på tiltaksplanen vi diskuterte 😕. Virker som en god idé i teorien, men jeg er usikker på gjennomføringen. Mye kan feile hvis vi ikke har forankring hos alle. Er det noe vi kan gjøre for å sikre mer støtte? Jeg vil ikke at det skal spore av før vi i det hele tatt prøver.",
-        "Prøvde å kommunisere med to kollegaer i parallell, men de sier motsatt 😬. Den ene vil ha alt i excel, den andre vil ha det i google sheets. Jeg kan ikke tilfredsstille begge, haha. Kanskje vi må bestemme en standard. Er så lei av å dobbelføre data!",
-        "Det kommer stadig nye utgaver av ‘vi burde kanskje endre retning’, men ingen tar en konkret beslutning 🙄. Vi sitter litt i stampe. Kan vi ikke bare si at vi kjører en testperiode på ny metode, og så konkluderer? Jeg er klar for alt som bryter dødpunktet.",
-        "Husker du den korte frasen vi skulle sende som standard svar til henvendelser? Jeg ser at noen sender en helt annen tekst 😕. Blir litt rot hvis ikke alle bruker samme. Har du tilgang til den opprinnelige malen, så jeg kan dele den på nytt?",
-        "Jeg tok en kikk i arkivet og fant en del gamle avtaler som kanskje ikke gjelder lenger 🙄. Kjenner du til om vi bør slette dem, eller arkivere på ny? Jeg vil rydde litt, men er redd for å kaste noe vi fortsatt trenger. Det er en jungel der inne.",
-        "Skulle bare si at jeg setter pris på at du ga klarsignal for min lille forbedring 🙂. Var redd noen skulle protestere, men det gikk smertefritt. Kanskje vi kan gjøre lignende grep oftere. Moro når vi får litt frihet til å endre ting!",
-        "En liten heads-up: Jeg fikk en merkelig mail fra en fremmed adresse 😶. Sto noe om felles prosjekt, men jeg aner ikke hvem avsender er. Håper ikke vi har lekket info. Tenkte bare si fra, så du ikke blir overrasket hvis du også får den.",
-        "Husker du at vi lovet å skrive en kort bruksanvisning for nye kollegaer? 😕. Jeg tror vi aldri gjorde det. Kanskje derfor alle nyansatte er forvirra. Vi bør kanskje slenge sammen noe enkelt asap.",
-        "Jeg ble kontaktet av en journalist som ville vite mer om satsingen vår 😬. Ble litt satt ut, for jeg var ikke forberedt på å uttale meg eksternt. Vet ikke om vi har en pressekontakt, men jeg avventer. Høres ut som de vil lage en artikkel, men jeg trenger grønt lys først.",
-        "Alle i gruppa spør om jeg har en tidsplan, men jeg trodde du sto for den 🤔. Kan vi avklare hvem som eier det ansvaret? Jeg får litt panikk av at alt peker på meg. Samtidig vil jeg ikke bare kaste ballen tilbake til deg.",
-        "Jeg møtte en representant fra en samarbeidspartner i går, og de virket litt forvirret 🙄. Sa at de hadde fått signaler som strider mot det jeg fortalte dem. Skjønner at vi nok ikke kommuniserer entydig internt. Kan vi lage en felles uttalelse?",
-        "Har en følelse av at alt glir litt ut av hendene våre 😶. Hver dag dukker det opp nye ting, og ingen ting blir ferdigstilt. Kanskje vi bør sette av en hel dag til å lukke alle løse tråder. Jeg orker ikke mer halvhjertet hopping mellom oppgaver!",
-        "Jeg fikk en halvferdig rapport, men den ser faktisk ganske lovende ut 🙂. Tenkte at du kanskje ville se over og komplettere. Da har vi et godt utgangspunkt før fristen. Kjekt å slippe å starte fra scratch.",
-        "Du, jeg hørte at vi muligens skal få en ny kollega som spesialiserer seg på dette området 😅. Hadde vært en lettelse, for jeg har følt meg litt alene med alt ansvaret. Håper bare det er sant og ikke bare et rykte. Vet du noe mer håndfast?",
-        "Skulle egentlig ta en rolig kveld, men ble sittende og tenke på alt vi ikke har landet 🙄. Har du også den følelsen av at hodet kverner i ring? Tipper det er på tide med en ordentlig avklaring. Kanskje vi bare må sove på det og prøve en frisk start i morgen.",
-        "Fikk en prat med en i ledelsen, og de etterlyser oppdaterte tall 😶. Jeg har ikke sett noen nye tall på flere uker. Har du fått tilsendt noe, eller må vi purre på noen? Jeg vil unngå å virke uforberedt i neste møte.",
-        "Trodde vi var ferdige med alt av kontrakter, men plutselig dukket det opp et vedlegg vi aldri har signert 😬. Aner ikke hvorfor det kom nå. Skjønner du noe av det? Jeg leser bare masse juridiske fraser som gir meg hodepine.",
-        "Jeg håper vi snart kan sette strek for dette prosjektet og feire litt 🙂. Det har jo vart i en evighet, føles det som. Kanskje en liten markering med boller eller kake. Hadde vært hyggelig å avslutte på en god note, synes du ikke?"
+        // 50 LANGE MELDINGER (flere setninger, 550–900 tegn), midt i en tråd
+        // 50% (dvs 25) med ansikts/hjerte-emoji, 25 uten
+
+        // 1 (emoji)
+        "Har kikket gjennom alt du sendte, og selv om mye av det ser greit ut, er jeg litt bekymret for at vi ikke har fått med alle unntakene 😬. Husk at det kan dukke opp spesielle tilfeller som vi ikke har forutsett. Jeg tenker vi bør lage en kjapp sjekkliste basert på rapporten fra i fjor, den som viste at visse prosesser gikk helt utenom hovedrutinen. Kanskje ingen bryr seg om det akkurat nå, men jeg vil helst være på den sikre siden. Du kan jo si fra om dette blir for omfattende, så tar vi en felles gjennomgang etter lunsj i morgen. Bare rop hvis du trenger hjelp til å lete fram dokumentene.",
+        // 2 (uten emoji)
+        "Jeg har snakket litt med flere på teamet, og det virker som alle er enige om at vi må forenkle brukeropplevelsen en del. Mange klager nemlig på at de ikke forstår hvor de skal klikke for å komme videre, og at alle mulige steg står forklart i et altfor langt avsnitt. Kanskje vi kan dele opp instruksene i mindre biter, eller lage en liten guidevideo? Jeg har ikke tid til å lage en video nå, men hvis noen melder seg frivillig, er det sikkert mulig. Uansett tror jeg vi kommer langt med en mer ryddig tekst og bedre overskrifter.",
+        // 3 (emoji)
+        "Bare et kjapt forslag: hva om vi legger inn et lite hjertesymbol ❤️ i slutten av velkomstteksten, som en slags humørbooster? Jeg vet det kan virke litt sært i en ellers formell sammenheng, men kanskje det gir en følelse av at vi bryr oss. Jeg hørte faktisk folk i forrige møte si at vi må vise mer personlighet, selv om det er et teknisk prosjekt. Kunne du tenke deg å teste det? Hvis det blir teit, så fjerner vi det fort igjen, men jeg er litt nysgjerrig på reaksjonene.",
+        // 4 (uten emoji)
+        "Prøvde i går kveld å oppdatere den store mappen med nye filer, men oppdaget at flere av dem var merket ‘read-only’. Det betyr at jeg ikke fikk lagt inn endringer, og jeg aner ikke hvem som har satt på den sperren. Kan du sjekke om du har rettigheter til å låse den opp, eller i det minste lage en kopi med skrivetilgang? Det er litt krise hvis vi ikke kan fortsette arbeidet i felles mappen, siden vi er mange som jobber parallelt nå. Gi meg en lyd når du har sett på det.",
+        // 5 (emoji)
+        "Jeg ble litt overrasket over at ingen kommenterte den nye layouten 😅. Trodde det ville bli en stor diskusjon, men alt jeg hørte var et ‘jaha, greit’. Kanskje folk er lei av å dykke inn i detaljer, eller kanskje layouten faktisk er god nok. Uansett, jeg holder øye med feedback i Slack-kanalen, for ofte dukker det opp klager der først. Hvis du ser noe kritikk, si ifra, så vi kan justere før alt blir endelig publisert.",
+        // 6 (uten emoji)
+        "Vi burde kanskje varsle brukerne om at endringen ikke påvirker eksisterende data, men at nye prosesser kommer til å se litt annerledes ut. Jeg er usikker på hvor tydelig vi har vært om akkurat den delen, og i verste fall kan noen misforstå og tro at alt er nytt. Kan du skissere en liten melding vi kan legge ut på informasjons-sidene? Det trenger ikke være langt, men gjerne konkret på hva folk kan forvente. Tror det kan spare oss for en haug med spørsmål i etterkant.",
+        // 7 (emoji)
+        "En rask oppklaring: Fikk du med deg at feilloggen dukket opp igjen i helgen? 🤔 Jeg trodde vi hadde lukket den saken for godt. Men i følge rapporten ble det registrert tre nye feil i løpet av bare to timer. Vet ikke om vi skal ringe en i IT-støtte for en dypere sjekk, eller om vi bare venter og ser. Uansett, bra å vite at vi ikke er helt ferdige med den delen.",
+        // 8 (uten emoji)
+        "Sånn helt ut av det blå fikk jeg en forespørsel om vi kunne integrere en ekstern modul for bedre statistikk. Jeg ante ikke at dette var på trappene, men visstnok har noen av de andre prosjektene hatt nytte av den samme modulen. Er du kjent med slike integrasjoner? Hvis ikke, bør vi kanskje undersøke litt, for det kan bety at vi må justere koden vår. Ikke umulig å få til, men alt tar jo ekstra tid.",
+        // 9 (emoji)
+        "Før jeg glemmer det, jeg la inn en liten smilefjes-kommentar i slutten av forrige dokument 😬. Håper du ikke synes det var upassende, men jeg prøvde bare å lette stemningen litt. Du kan jo fjerne den hvis du mener det blir feil. Jeg er ingen ekspert på formell stil, men av og til hjelper det med et lite glimt i øyet. Uansett, bare ville si fra.",
+        // 10 (uten emoji)
+        "Gikk gjennom e-postene fra i dag, og jeg ser at det allerede er en del forvirring. Noen tror vi har endret passordreglene, mens andre skjønner ikke om vi skal oppgradere til siste versjon nå eller vente. Kanskje vi trenger en felles beskjed som sier status klart og tydelig? Hvis ikke risikerer vi at folk tar egne valg og plutselig har vi ti forskjellige situasjoner å forholde oss til. Jeg kan skrive et utkast om du vil.",
+        // 11 (emoji)
+        "Jeg testet litt mer i staging-miljøet og fant egentlig ingen kritiske feil 🙂. De små glitchene vi så i går er borte. Mulig det var en cache-greie. Uansett greit å vite at ting ser stabilt ut før vi drar på med produksjonsoppdatering. Du kan dobbeltsjekke også, bare for å være sikker.",
+        // 12 (uten emoji)
+        "En kollega nevnte at en del av filene i fellesmappa hadde navnekollisjon. Det betyr at nye filer overskriver eldre. Vi må kanskje innføre en streng navnestandard, slik at ikke alt bare heter ‘Dok1’, ‘Dok2’ og så videre. Det skaper jo lett kaos. Kan du, eller noen andre, ta ansvar for å lage en kort retningslinje? Ellers sitter vi med en haug forvirrende kopier om et par måneder.",
+        // 13 (emoji)
+        "Hvis alt går etter planen, holder vi en rask gjennomgang i morgen tidlig 😅. Du trenger ikke forberede all verden, bare ha en viss idé om fremdriften. Jeg skal prøve å legge inn noen stikkord i agendaen så vi ikke surrer oss bort. Si fra om du ikke rekker å bli med.",
+        // 14 (uten emoji)
+        "Vet ikke om du fikk med deg at serveren var nede en periode i natt. Jeg oppdaget det tilfeldig da jeg skulle hente noen data. Heldigvis kom den raskt opp igjen, men vi bør sjekke loggene for eventuelle feil. Er jo typisk at slike ting skjer når ingen følger med, men kanskje alt er i orden nå.",
+        // 15 (emoji)
+        "Jeg var litt stressa før møtet, men det gikk jo fint 🙂. De fleste nikket og virket å være på nett. Likevel er jeg ikke hundre prosent sikker på om alt ble vedtatt, eller bare diskutert i løse lufta. Kanskje vi må sende et lite ‘oppsummerings-notat’ for å forankre det formelt?",
+        // 16 (uten emoji)
+        "Har du noen gang sett en sånn manglende-lenke-feil før? Jeg fikk en melding om at systemet ikke fant filbanen som var oppgitt, men jeg er sikker på at den finnes. Av og til mistenker jeg at vi har et lite brudd i nettverket, eller at navngivingen i filstien er rar. Kanskje vi bare burde ha én felles navneplass i stedet for fem. Men uansett, jeg skal prøve å replikere feilen.",
+        // 17 (emoji)
+        "Jeg tok en liten kikk på designskissene og synes de var overraskende friske 😅. Hadde forventet noe mer nøytralt, men kanskje litt farge og liv kan gjøre susen. Vet noen vil reagere på for mye glade farger, men la oss se. Du, hva tenker du – bør vi senke intensiteten, eller kjøre på?",
+        // 18 (uten emoji)
+        "Flere har etterlyst en guide for hvordan man fyller ut de nye skjemaene. Det er nok et behov for en steg-for-steg-beskrivelse, særlig for nyansatte. Du vet, alt er enkelt når man kan det, men for en fersking er det fort å klikke feil. Kanskje vi skal lage en miniserie med skjermbilder, eller i det minste en punktvis beskrivelse. Alt for å unngå unødvendig support.",
+        // 19 (emoji)
+        "Skulle bare ha en liten bekreftelse, men fikk en hel roman tilbake 🤔. Folk er engasjerte, det er fint, men nå har vi ekstremt mange meninger på en gang. Kanskje vi må strukturere litt, ellers drukner poenget. Har du et forslag til hvordan vi samler alt i en enkel oversikt?",
+        // 20 (uten emoji)
+        "Jeg skrev en melding til felleskanalen om at jeg gjerne tar imot tips til forbedringer, men fikk kun et par svar. Det kan hende folk er fornøyde, men jeg tror ofte stillheten betyr at ingen rakk å tenke på det. Foreslår vi setter opp en liten frist, så de føler seg presset til å gi en tilbakemelding. Ellers ender vi med null input.",
+        // 21 (emoji)
+        "Ble litt overrasket da en ny ansatt spurte om vi hadde en tidsmaskin 😅. Vedkommende lurte på om vi kan se historiske endringer minutt for minutt. Teknisk sett kan vi se endringer, men ikke så presist. Kanskje jeg skal vise dem en snarvei til versjonshistorikken?",
+        // 22 (uten emoji)
+        "Bare en liten heads up: Jeg la merke til at en av profilene i systemet plutselig mangler. Kan være en ren glitch, men det er litt rart. Vi bør kanskje ta en rask titt i database-loggen for å sikre at ingenting forsvinner helt. Har ikke sett slike feil før, men bedre å være føre var.",
+        // 23 (emoji)
+        "I går gikk jeg gjennom gamle notater og oppdaget at vi har hatt lignende utfordringer før 🤔. Morsomt å se at vi tilsynelatende ikke lærer av historien, haha. Uansett, vi kan kanskje unngå å gjenta feil hvis vi ser på hvordan det ble løst forrige gang. Bare en tanke.",
+        // 24 (uten emoji)
+        "Jeg begynte nesten å tvile på om vi burde slippe ny versjon nå eller vente til neste uke. Tiden er jo knapp, og vi vet det er litt risikofylt å dytte ut noe før helg. Folk kan bli sure hvis det feiler og ingen er på jobb for å rette opp. Men la oss likevel prøve å være effektive, bare med en liten backupløsning i bakhånd.",
+        // 25 (emoji)
+        "Hei, jeg ville bare si at jeg setter pris på den raske innsatsen din 🙂. Du fikset sak etter sak uten å mukke, og nå er vi så godt som ajour. Bare si fra hvis du blir sliten eller trenger en pause. Vi er i hvert fall på riktig vei, og det er en utrolig god følelse!",
+        // 26 (uten emoji)
+        "Det ser ut som systemets varsler ikke fungerer som før. Enkelte får melding, mens andre ikke. Kan være en konfigurasjonsfeil eller et filter som blokkerer. Jeg har ikke full oversikt, så jeg håper du kan sjekke en av brukerkontoene som har problemet. Hvis vi finner mønsteret, fikser vi det sikkert kjapt.",
+        // 27 (emoji)
+        "Er litt sjokkert over hvor fort ting eskalerte 😬. Først var alt rolig, så kom en bølge av endringskrav over natta. Nå sliter vi med å ha tid til å kode og teste. Men jeg antar at vi løser det med litt samarbeid og en god dose tålmodighet.",
+        // 28 (uten emoji)
+        "Et par stykker lurte på om vi får satt opp en enkel brukerveiledning på hjemmesiden. Noen er helt nye og forstår ikke helt menystrukturen. Det burde ikke være komplisert, bare en forklaring av de viktigste funksjonene. Jeg kan sikkert skrive noe raskt, men du er jo bedre på layout enn meg, så si gjerne fra hvis du har tid.",
+        // 29 (emoji)
+        "Fikk en litt rar mail i sted, sto bare 'Trenger mer info' og en sur smiley 😬. Ingen kontekst, ingen referanse til hva de egentlig vil vite. Vet du noe om det? Jeg mistenker at avsenderen bare glemte å fylle ut detaljer, men blir litt klønete for oss.",
+        // 30 (uten emoji)
+        "Jeg så at du la inn en midlertidig fiks i går. Tusen takk for det! Uten den hadde sikkert systemet krasjet i morgen tidlig. Men vi bør kanskje planlegge en ordentlig permanent løsning, ellers risikerer vi at alt sklir ut igjen.",
+        // 31 (emoji)
+        "Greit, jeg rakk å se over de nye skjemaene 🙂. De ser brukbare ut, men litt omfattende, kanskje. Kanskje vi kan fjerne et par felt eller slå sammen? Jo enklere, jo gladere brukere.",
+        // 32 (uten emoji)
+        "Flott at du la ut en liten avstemming i Slack. Jeg tror det hjelper folk å ta stilling på en effektiv måte, i stedet for at vi setter i gang endeløse diskusjoner. Håper bare flest mulig tar seg tid til å stemme, ellers blir det litt meningsløst.",
+        // 33 (emoji)
+        "Forresten, om du så den feilmeldingen i rapporten: Jeg tror den henger sammen med en gammel modul 🤔. Vi har bare glemt å fjerne koblingen. Tar du en rask opprydding, eller vil du at jeg skal prøve meg på det?",
+        // 34 (uten emoji)
+        "Du, jeg ble litt usikker på om vi faktisk har en avtale om lanseringsdato. Noen sier 'før helga', andre nevner en helt annen uke. Kanskje vi burde skrive det krystallklart i status-oppdateringen, så alle er på bølgelengde. Jeg vil nødig se at vi bommer på en 'frist' ingen var enige om.",
+        // 35 (emoji)
+        "Alt i alt er vi ikke så langt unna mål, tror jeg 😅. Men jeg vil gjerne at vi dobbeltsjekker at ingen delegerte oppgaver ligger utestående. Det er lett å glemme en liten brikke, og så faller alt. Du kan jo gi meg en kjapp oversikt hvis du har en.",
+        // 36 (uten emoji)
+        "Hei, bare en vennlig påminnelse om at den statistikken vi brukte i fjor ikke er helt representativ lenger. Vi bør oppdatere den med årets tall. Tenkte du kanskje hadde oversikt der, siden jeg så navnet ditt i regnearket. Hvis ikke, tar jeg en titt i morgen.",
+        // 37 (emoji)
+        "Jeg holdt nettopp en liten presentasjon for kollegene og fikk faktisk applaus 🙂. De virket imponert over hvordan vi har løst sakene. Men nå spør de om vi har flere planer for neste steg, og jeg sa 'vi avklarer i kveld'. Håper det er greit at jeg la litt press på oss!",
+        // 38 (uten emoji)
+        "Merker at flere brukere kontakter oss med spørsmål om nye funksjoner. De tror alt allerede er implementert. Kanskje vi bør formidle bedre at funksjonene kommer i puljer og ikke på en gang. Trenger bare en ryddig forklaring, så folk ikke sitter og leter etter noe som ikke finnes enda.",
+        // 39 (emoji)
+        "For å være helt ærlig, jeg har litt panikk for at vi glemte å invitere en viktig stakeholder 😬. Ingen har nevnt navnet, men jeg frykter en liten 'krise' hvis vi overser dem. Kan du sjekke deltakerlisten? Jeg tror det er best å være på den trygge siden.",
+        // 40 (uten emoji)
+        "Vil du se over kapittel 3 i den store manualen? Jeg la inn en del nye eksempler, men er redd for at noen kan misforstå dem. Kanskje vi må skrive dem enda enklere. Du er flink til å spotte uklart språk, så jeg stoler på at du gir en ærlig tilbakemelding.",
+        // 41 (emoji)
+        "Jeg rakk akkurat å fikse en liten skrivefeil før alt ble sendt ut 😊. Føltes som en liten seier i alt dette. Du vet, det er de små tingene som gjør at jeg sover bedre om natta. Uansett, nå er det på vei til dem som trenger det.",
+        // 42 (uten emoji)
+        "Jeg lurte på om vi skulle tilby en enkel 'kom i gang'-video, men jeg aner ikke hvem som har filmutstyr eller tid til sånt. Kanskje vi bare tar en skjermopptaksløsning og snakker oss gjennom stegene. Det er muligens nok for å vise de grunnleggende trinnene. Hør gjerne med de andre om de er positive.",
+        // 43 (emoji)
+        "Fikk melding fra en bruker som faktisk ga skryt for en ny løsning 😅. Det er ikke ofte vi får positive ord, så jeg ville bare dele at det skjer. En påminnelse om at vi gjør noe riktig. Håper vi kan feire litt når alt er i boks.",
+        // 44 (uten emoji)
+        "Bare for å unngå misforståelser: Jeg har ikke endret noe i selve hoveddokumentet, kun lagt til en liten setning i innledningen. Det burde ikke påvirke oppsettet ellers. Men si fra hvis du ser at noe har flyttet på seg, for systemet oppfører seg iblant uforutsigbart.",
+        // 45 (emoji)
+        "Jeg tok en bitteliten pause i stad for å rydde i hodet 😬. Da innså jeg at vi kanskje bør justere lanseringstidspunktet. Det er nemlig et annet prosjekt som går live samme dag, og det kan skape forvirring. Kan vi drøfte det før vi konkluderer?",
+        // 46 (uten emoji)
+        "Flere lurer nå på om vi tar helhetlig ansvar for support, eller om vi trenger et eksternt firma. Vi har ikke helt definert skillet der. Jeg syns vi bør være tydelig på hva vi selv kan ta, så vi ikke plutselig drukner i saker vi ikke har kapasitet til å håndtere. Vil du luftet dette med noen?",
+        // 47 (emoji)
+        "Nå har jeg samlet alt i en zip, men pass på at du ikke laster opp en unødvendig stor fil 😅. Folk liker ikke tunge nedlastinger. Kanskje du kan slette unødvendige bilder før du publiserer?",
+        // 48 (uten emoji)
+        "Det har dukket opp nye kommentarer i regnearket, og jeg blir litt matt. Noen er forslått av endringer vi allerede har gjort, andre er utydelige. Kan du gå gjennom dem og markere hvilke som faktisk gjelder? Jeg vil ikke kaste bort tid på duplikater eller uspesifikke innspill.",
+        // 49 (emoji)
+        "Jeg tror dette er siste innspurt, men jeg vet aldri 😬. Ofte dukker det opp en ny runde med sjekk akkurat når vi tror vi er ferdige. Jeg har uansett en god følelse for at vi dekker det meste nå. Takk for at du holdt ut med alt maset!",
+        // 50 (uten emoji)
+        "Takker deg for stå-på-viljen her. Mye gjenstår kanskje, men vi er milevis nærmere mål enn for en uke siden. Hvis ingen kommer med flere overraskelser, tror jeg vi faktisk kan levere innen rimelig tid. Da får vi pustet litt lettere ut, og så ser vi fremover mot neste utfordring."
     ]
 };
