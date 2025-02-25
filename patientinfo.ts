@@ -1,6 +1,6 @@
 import type { TextCollection } from '../types';
 
-export const patientinfo: TextCollection = {
+export const patientinfoTexts: TextCollection = {
     "short": [
         "Nye behandlingsmetoder viser lovende resultater",
         "Betydelig fremgang i rehabiliteringsprosessen",
